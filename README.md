@@ -1,6 +1,8 @@
-# Modpack Repository Template
+# ChosenArchitect Community Pack Development
 
-This is a template created by Team 8Bit for ease of creation of repositories for any modpack they make
+This pack is being developed for the community of YouTuber/Streamer - ChosenArchitect.
+https://youtube.com/chosenarchitect/
+https://twitch.tv/chosenarchitect/
 
 # Team 8Bit Team
 
@@ -9,10 +11,3 @@ This is a template created by Team 8Bit for ease of creation of repositories for
 
 ###### Lead Mod Pack Developer
 [Happybandit](https://github.com/happybandit360)
-
-###### Lead Web Engineer
-[SketchNI](https://github.com/SketchNI)
-
-###### Need to sort a title
-[Mar3xgg](https://github.com/Mar3xgg)
-[xXDigitalMonkXx](https://github.com/xxdigitalmonkxx)
