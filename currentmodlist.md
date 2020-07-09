@@ -1,0 +1,213 @@
+## This is the current modlist for the pack
+---
+
+Please remember this list is subject to change through development and testing.
+
+- /dank/null
+- Actually Additions
+- Advanced Rocketry
+- AE2 Stuff
+- AE2 Wireless Terminals (AE2WTLib)
+- AgriCraft
+- Apotheosis
+- AppleCore
+- AppleSkin
+- Applied Energistics
+- Astral Sorcery
+- AutoRegLib
+- B.A.S.E
+- Baubles
+- BD Lib
+- Better Advancements
+- Better Builder's Wands
+- BetterFps
+- The Betweenlands
+- Block Drops
+- Blockcraftery
+- BloodMagic: Alchemcial Wizardry
+- BNBGamingCore
+- BNBGamingLib
+- Bonsai Trees
+- Bookshelf
+- Botania
+- Brandon's Core
+- Career Bees
+- Carry On
+- Chameleon
+- Charm
+- Chisel
+- Chisel & Bits
+- Client Tweaks
+- CodeChicken Lib
+- CoFH Core
+- CoFH World
+- Colored Tooltips
+- CommonCapabilities
+- Compact Machines 3
+- Construct's Armoury
+- ContentTweaker
+- Controlling
+- Cooking For Blockheads
+- CosmeticArmorReworked
+- Crafting Tweaks
+- CraftTweaker2
+- CreativeCore
+- Connected Textures Mod
+- Cucumber Library
+- Custom Main Meny
+- Cyclic
+- Cyclops Core
+- Dark Utilities
+- Deep Mob Learning
+- Deep Mob Learning: Blood Magic Addon
+- Dimension Stages
+- Draconic Additions
+- Draconic Evolution
+- Enchantment Descriptions 
+- Ender IO
+- Ender IO Endergy
+- Ender Utilities
+- EnderCore
+- EnderStorage
+- EnderTweaker
+- Environmental Tech
+- Environmental Tech: Lunar
+- Ex Nihilo Creatio
+- Extended Crafting
+- Extra Bit Manipulation
+- Extra Cells 2
+- Extra Utilities 2
+- Fairy Lights
+- Fancy Block Particles
+- Farming For Blockheads
+- FastFurnace
+- FastWorkbench
+- Flux Networks
+- FoamFix
+- Forestry
+- FTB Backups
+- FTB Guides
+- FTB Library
+- FTB Quests
+- FTB Utilities
+- Funky Locomotion
+- Furnace Overhaul
+- Game Stages
+- GenDustry
+- GenDustry JEI Addon
+- Guide-API
+- GunpowderLib
+- Ice and Fire
+- Immersive Engineering
+- Immersive Petroleum
+- Immersive Tech
+- InControl
+- Industrial Foregoing
+- InfinityLib
+- Integrated Dynamics
+- Integrated Tunnels
+- Integration Foregoing
+- Inventory Tweaks
+- Item Filters
+- Item Stages
+- ItemPhysic
+- JourneyMap
+- Just Enough Items
+- Just Enough Resources
+- Let's Encrypt Craft
+- libnine
+- libVulpes
+- Limitless Structure Blocks
+- Little Tiles
+- LLibrary
+- Magic Bees
+- Mantle
+- McJtyLib
+- Mekanism
+- Mekanism Generators
+- memory_repo
+- Mob Stages
+- mob_grinding_utils
+- Mod Tweaker
+- MPUtils Basic Tools
+- MPUtils
+- Modular Machinery
+- MoreOverlays
+- Morpheus
+- Mouse Tweaks
+- MrCrayfish's Furniture Mod
+- MrCrayfish's Vehicle Mod
+- MTLib
+- Multiblock Stages
+- Mystical Agradditions
+- Mystical Agriculture
+- Mystical Agriculture Tiered Crystals
+- Mystical Creations
+- Mystical Lib
+- Nature's Compass
+- Neat
+- NetherPortalFix
+- No Reicpe Book
+- NotEnoughIDs
+- NuclearCraft: Overhauled
+- Obfuscate
+- OpenBlocks
+- OpenComputers
+- OpenModsLib
+- Ore Stages
+- OreExcavation
+- OreExcavation Integration
+- p455w0rd's Library
+- Pam's Harvestcraft
+- Patchouli
+- Phosphor Lighting Engine
+- Pillar
+- Placebo
+- Project EX
+- Project Intelligence
+- Project: Vibrant Journeys
+- ProjectE
+- Proportional Destruction Particles
+- Quark
+- Random Things
+- Realistic Terrain Generation
+- ReAuth
+- RecipeStages
+- Redstone Arsenal
+- Redstone Flux
+- Resource Loader
+- RFTools
+- RFTools Control
+- RFTools Power
+- Serene Seasons
+- ShadowFact's Forgelin
+- Simple Generators
+- Simple Storage Network
+- Simply Jetpacks 2
+- Smooth Font
+- Spice of Life: Carrot Edition
+- SwingThroughGrass
+- Tesla Core Lib
+- Thermal Foundation
+- Thermal Innovation
+- Tinkers' JEI
+- Tinkers' Tool Leveling
+- Tinkers' Complement
+- Tinkers' Construct
+- Tiny Progressions
+- Toast Control
+- Topography
+- Tweakers Construct
+- Twilight Forest
+- Unlimited Chisel Works
+- Valkyrie Lib
+- Waila
+- Waila Harvestability
+- Wall-Jump!
+- Waystones
+- What Are We Looking At
+- Wireless Crafting Terminal 2
+- XNet
+- YUNG's Better Caves
+- YUNG's Better Mineshafts
+- ZenStages
