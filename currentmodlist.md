@@ -33,6 +33,7 @@ Please remember this list is subject to change through development and testing.
 - Brandon's Core
 - Career Bees
 - Carry On
+- Ceramics
 - Chameleon
 - Charm
 - Chisel
@@ -194,7 +195,6 @@ Please remember this list is subject to change through development and testing.
 - Tinkers' Tool Leveling
 - Tinkers' Complement
 - Tinkers' Construct
-- Tiny Progressions
 - Toast Control
 - Topography
 - Tweakers Construct
