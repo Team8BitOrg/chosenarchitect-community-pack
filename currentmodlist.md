@@ -49,6 +49,7 @@ Please remember this list is subject to change through development and testing.
 - ContentTweaker
 - Controlling
 - Cooking For Blockheads
+- Corail Tombstone
 - CosmeticArmorReworked
 - Crafting Tweaks
 - CraftTweaker2
@@ -166,7 +167,6 @@ Please remember this list is subject to change through development and testing.
 - Placebo
 - Project EX
 - Project Intelligence
-- Project: Vibrant Journeys
 - ProjectE
 - Proportional Destruction Particles
 - Quark
