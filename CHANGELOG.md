@@ -25,19 +25,38 @@ Alpha Build 0.0.1a --> 0.0.2a
 
 ## Config Changes
 
+* advancedrocketry/advancedrocketry.cfg
+  * B:GenerateCopper=false
+  * B:GenerateTin=false
+  * B:generateAluminum=false
+  * I:IridiumPerChunk=0
+  
+* AppliedEnergistics2/appliedenergistics2.cfg
+  * B:MeteoriteWorldGen=false //Adding custom meteors 
+
+*brandon3055/draconicevolution.cfg
+  * B:disableOreSpawnNether=true
+  * B:disableOreSpawnOverworld=true
+
 * cofh/thermalfoudation/common.cfg
-    * B:DisableAllArmorRecipes=true
-    * B:DisableAllBows=true
-    * B:DisableAllFishingRods=true
-    * B:DisableAllShields=true
-    * B:DisableAllToolRecipes=true
-    * B:BasicGears=false
-    * B:EnableCryotheumCrafting=false
-    * B:EnableHorseArmorCrafting=false
-    * B:EnablePetrotheumCrafting=false
-    * B:EnablePyrotheumCrafting=false
-    * B:EnableSaddleCrafting=false
-    * B:FireImmuneMobsDropSulfur=false
+  * B:DisableAllArmorRecipes=true
+  * B:DisableAllBows=true
+  * B:DisableAllFishingRods=true
+  * B:DisableAllShields=true
+  * B:DisableAllToolRecipes=true
+  * B:BasicGears=false
+  * B:EnableCryotheumCrafting=false
+  * B:EnableHorseArmorCrafting=false
+  * B:EnablePetrotheumCrafting=false
+  * B:EnablePyrotheumCrafting=false
+  * B:EnableSaddleCrafting=false
+  * B:FireImmuneMobsDropSulfur=false
+
+* cofh/world/04_large.json
+  * Added additional large veins of vanilla ores
+* 
+* cofh/world/05_astral.json
+  * Added custom Astral Sorcery marble generation
 
 * exnihilocreatio/HammerRegistry.json
     > "tconstruct:seared": [
@@ -61,11 +80,56 @@ Alpha Build 0.0.1a --> 0.0.2a
 * jei/itemBlacklist.cfg
     * Blacklisted a bunch of items from showing up in JEI
 
+* thebetweenlands/config.cfg
+  * B:show_non_bl_gem_recipes=false
+
+* actuallyadditions.cfg
+  * B:"Crystal Clusters in Lush Caves"=false
+  * B:"Generate Lush Caves"=false
+
+* astralsorcery.cfg
+  * I:generateMarbleAmount=0
+
 * charm.cfg    
     * B:ExtraCurses=false
     * B:WitchHatProtection=false
     * B:Spectre=false
     * B:SpectreHaunting=false
+    * B:AbandonedCrates=false
+    * B:NetherGoldDeposits=false
+
+* chisel.cfg
+  * I:limestoneAmount=12
+  * I:marbleAmount=0
+
+* cyclicmagic.cfg
+  * B:ChestLoot=false
+  * B:"Name Tag Death"=false
+  * B:UncraftingGrinder=false
+  * B:fluid_drain=false
+  * B:"Emerald Gear"=false
+  * B:NetherbrickTools=false
+  * B:SandstoneTools=false
+  * B:ExchangeScepters=false
+  * B:"HeartContainer(food)"=false
+  * B:EnderBombs=false
+  * B:EnchantExcavation=false
+  * B:EnchantMagnet=false
+  * B:void_anvil=false
+  * B:MagnetBlock=false
+  * B:boomerang=false
+
+* extrautils2.cfg
+  * B:Contract=false
+  * B:ChunkLoader=false
+  * B:ItemBuildersWand=false
+  * B:ItemCreativeBuildersWand=false
+  * B:ItemCreativeDestructionWand=false
+  * B:ItemDestructionWand=false
+  * B:Indexer=false
+  * B:IndexerRemote=false
+  * B:ironwood=false
+
 
 * ice_and_fire.cfg   
     * B:"Animals Fear Dragons"=false
@@ -102,6 +166,21 @@ Alpha Build 0.0.1a --> 0.0.2a
     * B:"Villagers Fear Dragons"=false
     * B:Weezer=false
 
+* mekanism.cfg
+  * I:CopperPerChunk=0
+  * I:TinPerChunk=0
+
+* openblocks.cfg
+  * B:dev_null=false
+  * B:donation_station=false
+  * B:grave=false
+  * B:explosiveEnchantment=false
+  * B:flimFlamEnchantment=false
+
+* quark.cfg
+  * B:"Enable Limestone"=false
+  * B:"Enable Marble"=false
+  * B:"Enable Curse"=false
 ---
 
 ## Script Changes
@@ -115,6 +194,9 @@ Alpha Build 0.0.1a --> 0.0.2a
     * Added liquidGravel as a fluid for Seared Stone alloying purposes
     * Added liquidGrout as a fluid for Seared Stone alloying purposes
 
+* itemModifiers/tooltipsTinkers.zs
+  * Added tip to all Stone item parts
+
 * modIntegrations/tinkers.zs
     * Added methods for Alloying 2 clay, 1 gravel into 2 Seared Stone
 
@@ -123,6 +205,10 @@ Alpha Build 0.0.1a --> 0.0.2a
 
 * recipes/removeAndHide.zs
     * Removed Tinkers' Construct Grout
+    * AA Crystal shards
+
+---
+
 ## Asset Changes
 
 ---

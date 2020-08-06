@@ -10,8 +10,15 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
 static ingredientsArray as IIngredient[] = [
-    //Tinkers' Construct
+    //Tinkers'' Construct
     <tconstruct:soil>, //Grout
+    <actuallyadditions:item_crystal_shard>,
+    <actuallyadditions:item_crystal_shard:1>,
+    <actuallyadditions:item_crystal_shard:2>,
+    <actuallyadditions:item_crystal_shard:3>,
+    <actuallyadditions:item_crystal_shard:4>,
+    <actuallyadditions:item_crystal_shard:5>
+
 ];
 
 function init() {

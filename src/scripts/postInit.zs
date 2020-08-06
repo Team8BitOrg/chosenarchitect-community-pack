@@ -42,4 +42,5 @@ function initItemModifiers() {
 	scripts.itemModifiers.hide.init();
 	scripts.itemModifiers.rename.init();
 	scripts.itemModifiers.tooltips.init();
+	scripts.itemModifiers.tooltipsTinkers.init();
 }
