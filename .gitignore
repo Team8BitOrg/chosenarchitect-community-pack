@@ -1,10 +1,12 @@
 #Bloat from mods that is just not needed
 src/config/AppliedEnergistics2/items.csv
 src/config/AppliedEnergistics2/aerecipes/*
+src/config/AppliedEnergistics2/CustomRecipes.cfg
 src/config/cd4017be/inductiveLogistics.rcp
 src/config/cd4017be/inductiveLogistics.rcp.old
 src/config/cd4017be/compiled.dat
 src/config/cd4017be/core.rcp.old
+src/config/BlockDrops/modVersions.txt
 
 #Client side only files
 src/config/InvTweaks.cfg

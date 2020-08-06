@@ -10,6 +10,7 @@
 
 //Mods
 //global modname as scripts._globals.mods.modname.ModName = scripts._globals.mods.modname.ModName();
+global tinkers as scripts._globals.mods.tinkers.Tinkers = scripts._globals.mods.tinkers.Tinkers();
 
 //Utils
 global recipeHelper as scripts._globals.utils.recipeHelper.RecipeHelper = scripts._globals.utils.recipeHelper.RecipeHelper();

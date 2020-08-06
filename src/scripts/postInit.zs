@@ -32,6 +32,7 @@ function initRecipes() {
 
 function initIntegration() {
 	//scripts.modIntegrations.mods.scriptname.init();
+	scripts.modIntegrations.tinkers.init();
 }
 
 function initItemModifiers() {

@@ -7,5 +7,6 @@
 */
 
 function init() {
-    
+    /* Tinkers' Construct */
+    furnace.remove(<tconstruct:materials>); //Seared Brick
 }

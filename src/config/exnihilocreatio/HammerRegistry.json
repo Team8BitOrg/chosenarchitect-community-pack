@@ -600,5 +600,14 @@
       "chance": 0.125,
       "fortuneChance": 2.0
     }
+  ],
+  "tconstruct:seared": [
+    {
+      "item": "tconstruct:materials",
+      "amount": 4,
+      "miningLevel": 1,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
   ]
 }

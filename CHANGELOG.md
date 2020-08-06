@@ -6,7 +6,7 @@ Alpha Build 0.0.1a --> 0.0.2a
 ---
 ## Added Mods
 
-- Corail Tombstone (4.0.0-1.12.2)
+* Corail Tombstone (4.0.0-1.12.2)
 ---
 
 ## Updated Mods
@@ -15,19 +15,59 @@ Alpha Build 0.0.1a --> 0.0.2a
 
 ## Removed Mods
 
-- Project: Vibrant Journeys
+* Dimension Stages (1.12.2-2.0.23)
+* Mob Stages (1.12.2-2.0.8)
+* Multiblock Stages (1.2.0)
+* Ore Stages (1.12.2-2.0.37)
+* Project: Vibrant Journeys (1.12.2-1.6.4)
 
 ---
 
 ## Config Changes
 
-* config/charm.cfg    
+* cofh/thermalfoudation/common.cfg
+    * B:DisableAllArmorRecipes=true
+    * B:DisableAllBows=true
+    * B:DisableAllFishingRods=true
+    * B:DisableAllShields=true
+    * B:DisableAllToolRecipes=true
+    * B:BasicGears=false
+    * B:EnableCryotheumCrafting=false
+    * B:EnableHorseArmorCrafting=false
+    * B:EnablePetrotheumCrafting=false
+    * B:EnablePyrotheumCrafting=false
+    * B:EnableSaddleCrafting=false
+    * B:FireImmuneMobsDropSulfur=false
+
+* exnihilocreatio/HammerRegistry.json
+    > "tconstruct:seared": [
+    >
+        >{
+        >
+        >  "item": "tconstruct:materials",
+        >
+        >  "amount": 4,
+        >
+        >  "miningLevel": 1,
+        >
+        >  "chance": 1.0,
+        >
+        >  "fortuneChance": 0.0
+        >
+        >}
+    >
+  >] 
+  
+* jei/itemBlacklist.cfg
+    * Blacklisted a bunch of items from showing up in JEI
+
+* charm.cfg    
     * B:ExtraCurses=false
     * B:WitchHatProtection=false
     * B:Spectre=false
     * B:SpectreHaunting=false
 
-* config/ice_and_fire.cfg   
+* ice_and_fire.cfg   
     * B:"Animals Fear Dragons"=false
     * B:"Custom main menu"=false
     * B:"Cyclops Griefing"=false
@@ -68,6 +108,21 @@ Alpha Build 0.0.1a --> 0.0.2a
 
 ---
 
+* _globals/mods/tinkers.zs
+    * Added methods for Melting, Alloying, Casting
+
+* contenttweaker/fluids.zs
+    * Added liquidGravel as a fluid for Seared Stone alloying purposes
+    * Added liquidGrout as a fluid for Seared Stone alloying purposes
+
+* modIntegrations/tinkers.zs
+    * Added methods for Alloying 2 clay, 1 gravel into 2 Seared Stone
+
+* recipes/furnace.zs
+    * Removed grout->seared brick recipe
+
+* recipes/removeAndHide.zs
+    * Removed Tinkers' Construct Grout
 ## Asset Changes
 
 ---
