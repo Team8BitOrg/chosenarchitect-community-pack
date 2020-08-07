@@ -130,7 +130,6 @@ Alpha Build 0.0.1a --> 0.0.2a
   * B:IndexerRemote=false
   * B:ironwood=false
 
-
 * ice_and_fire.cfg   
     * B:"Animals Fear Dragons"=false
     * B:"Custom main menu"=false
