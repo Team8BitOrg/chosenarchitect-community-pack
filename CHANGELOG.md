@@ -203,13 +203,19 @@ Alpha Build 0.0.1a --> 0.0.2a
 * modIntegrations/tinkers.zs
     * Added methods for Alloying 2 clay, 1 gravel into 2 Seared Stone
 
-* recipes/ceramics.zs
+* recipes/mods/ceramics.zs
   * Created new recipe for the faucet
   * Staged recipes for the unfired porcelain
-  
+
+* recipes/mods/minecraft.zs
+  * Removed bucket recipe so castable only (Use clay buckets to start)
+
 * recipes/furnace.zs
     * Removed grout->seared brick recipe
     * Removed unfired faucet->faucet recipe
+
+* recipes/hideCategory.zs
+  * Hid both the forestry bottler and EnderIO Tank category because they are just bloat
 
 * recipes/removeAndHide.zs
     * Removed Tinkers' Construct Grout

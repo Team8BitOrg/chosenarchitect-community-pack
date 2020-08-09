@@ -29,6 +29,7 @@ function initRecipes() {
 	//Mods
 	//scripts.recipes.mods.scriptname.init();
 	scripts.recipes.mods.ceramics.init();
+	scripts.recipes.mods.minecraft.init();
 }
 
 function initIntegration() {
@@ -41,6 +42,7 @@ function initItemModifiers() {
 	scripts.itemModifiers.burnTime.init();
 	scripts.itemModifiers.hardness.init();
 	scripts.itemModifiers.hide.init();
+	scripts.itemModifiers.loottables.init();
 	scripts.itemModifiers.rename.init();
 	scripts.itemModifiers.tooltips.init();
 	scripts.itemModifiers.tooltipsTinkers.init();
