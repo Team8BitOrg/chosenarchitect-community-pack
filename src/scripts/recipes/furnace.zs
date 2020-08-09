@@ -7,6 +7,8 @@
 */
 
 function init() {
+    /* Ceramics */
+    furnace.remove(<ceramics:faucet>); //Fired Porcelain Faucet
     /* Tinkers' Construct */
     furnace.remove(<tconstruct:materials>); //Seared Brick
 }

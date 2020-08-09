@@ -34,7 +34,7 @@ Alpha Build 0.0.1a --> 0.0.2a
 * AppliedEnergistics2/appliedenergistics2.cfg
   * B:MeteoriteWorldGen=false //Adding custom meteors 
 
-*brandon3055/draconicevolution.cfg
+* brandon3055/draconicevolution.cfg
   * B:disableOreSpawnNether=true
   * B:disableOreSpawnOverworld=true
 
@@ -54,29 +54,23 @@ Alpha Build 0.0.1a --> 0.0.2a
 
 * cofh/world/04_large.json
   * Added additional large veins of vanilla ores
-* 
+
 * cofh/world/05_astral.json
   * Added custom Astral Sorcery marble generation
 
 * exnihilocreatio/HammerRegistry.json
-    > "tconstruct:seared": [
-    >
-        >{
-        >
-        >  "item": "tconstruct:materials",
-        >
-        >  "amount": 4,
-        >
-        >  "miningLevel": 1,
-        >
-        >  "chance": 1.0,
-        >
-        >  "fortuneChance": 0.0
-        >
-        >}
-    >
-  >] 
-  
+     ```json
+     "tconstruct:seared": [
+        {
+          "item": "tconstruct:materials",
+          "amount": 4,
+          "miningLevel": 1,
+          "chance": 1.0,
+          "fortuneChance": 0.0
+        }  
+    ]
+    ``` 
+
 * jei/itemBlacklist.cfg
     * Blacklisted a bunch of items from showing up in JEI
 
@@ -89,6 +83,16 @@ Alpha Build 0.0.1a --> 0.0.2a
 
 * astralsorcery.cfg
   * I:generateMarbleAmount=0
+
+* ceramics.cfg
+  * B:sand=false
+  * B:armor=false
+  * B:barrel=false
+  * B:brickWall=false
+  * B:fancyBricks=false
+  * B:rainbowClay=false
+  * B:rawClayArmorEnabled=false
+  * B:shears=false
 
 * charm.cfg    
     * B:ExtraCurses=false
@@ -199,13 +203,20 @@ Alpha Build 0.0.1a --> 0.0.2a
 * modIntegrations/tinkers.zs
     * Added methods for Alloying 2 clay, 1 gravel into 2 Seared Stone
 
+* recipes/ceramics.zs
+  * Created new recipe for the faucet
+  * Staged recipes for the unfired porcelain
+  
 * recipes/furnace.zs
     * Removed grout->seared brick recipe
+    * Removed unfired faucet->faucet recipe
 
 * recipes/removeAndHide.zs
     * Removed Tinkers' Construct Grout
     * AA Crystal shards
 
+* stages.zs
+  * Created Overworld and Skyblock stages
 ---
 
 ## Asset Changes

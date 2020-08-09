@@ -28,6 +28,7 @@ function initRecipes() {
 
 	//Mods
 	//scripts.recipes.mods.scriptname.init();
+	scripts.recipes.mods.ceramics.init();
 }
 
 function initIntegration() {
