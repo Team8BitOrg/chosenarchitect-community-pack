@@ -9,6 +9,7 @@ Please remember this list is subject to change through development and testing.
 - AE2 Stuff
 - AE2 Wireless Terminals (AE2WTLib)
 - AgriCraft
+- AgriSeasons
 - Apotheosis
 - AppleCore
 - AppleSkin
@@ -62,9 +63,9 @@ Please remember this list is subject to change through development and testing.
 - Dark Utilities
 - Deep Mob Learning
 - Deep Mob Learning: Blood Magic Addon
-- Dimension Stages
 - Draconic Additions
 - Draconic Evolution
+- Dropt
 - Enchantment Descriptions 
 - Ender IO
 - Ender IO Endergy
@@ -74,7 +75,6 @@ Please remember this list is subject to change through development and testing.
 - EnderTweaker
 - Environmental Tech
 - Environmental Tech: Lunar
-- Ex Nihilo Creatio
 - Extended Crafting
 - Extra Bit Manipulation
 - Extra Cells 2
@@ -128,7 +128,6 @@ Please remember this list is subject to change through development and testing.
 - Mekanism
 - Mekanism Generators
 - memory_repo
-- Mob Stages
 - mob_grinding_utils
 - Mod Tweaker
 - MPUtils Basic Tools
@@ -140,7 +139,6 @@ Please remember this list is subject to change through development and testing.
 - MrCrayfish's Furniture Mod
 - MrCrayfish's Vehicle Mod
 - MTLib
-- Multiblock Stages
 - Mystical Agradditions
 - Mystical Agriculture
 - Mystical Agriculture Tiered Crystals
@@ -156,7 +154,6 @@ Please remember this list is subject to change through development and testing.
 - OpenBlocks
 - OpenComputers
 - OpenModsLib
-- Ore Stages
 - OreExcavation
 - OreExcavation Integration
 - p455w0rd's Library

@@ -9,42 +9,6 @@
       "emc": 4
     },
     {
-      "item": "minecraft:stone|1",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:stone|2",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:stone|3",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:stone|4",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:stone|5",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:stone|6",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:flint|0",
-      "emc": 1
-    },
-    {
-      "item": "mysticalagriculture:ice_essence|0",
-      "emc": 4
-    },
-    {
-      "item": "mysticalagriculture:water_essence|0",
-      "emc": 4
-    },
-    {
       "item": "mysticalagriculture:nature_essence|0",
       "emc": 4
     },
@@ -53,32 +17,48 @@
       "emc": 4
     },
     {
-      "item": "minecraft:gravel|0",
+      "item": "mysticalagriculture:water_essence|0",
+      "emc": 4
+    },
+    {
+      "item": "mysticalagriculture:ice_essence|0",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:cobblestone|0",
       "emc": 0
     },
     {
-      "item": "minecraft:leaves|0",
-      "emc": 4
+      "item": "minecraft:stone|0",
+      "emc": 0
     },
     {
-      "item": "minecraft:leaves|1",
-      "emc": 4
+      "item": "minecraft:stone|1",
+      "emc": 0
     },
     {
-      "item": "minecraft:leaves|2",
-      "emc": 4
+      "item": "minecraft:stone|3",
+      "emc": 0
     },
     {
-      "item": "minecraft:leaves|3",
-      "emc": 4
+      "item": "minecraft:stone|5",
+      "emc": 0
     },
     {
-      "item": "minecraft:leaves2|0",
-      "emc": 4
+      "item": "minecraft:stonebrick|2",
+      "emc": 0
     },
     {
-      "item": "minecraft:leaves2|1",
-      "emc": 4
+      "item": "minecraft:stonebrick|3",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:flint|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:gravel|0",
+      "emc": 0
     },
     {
       "item": "minecraft:mossy_cobblestone|0",
@@ -86,6 +66,122 @@
     },
     {
       "item": "minecraft:stonebrick|1",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dirt|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:grass|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dirt|1",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dirt|2",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:mycelium|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:brown_mushroom|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:red_mushroom|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:clay_ball|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sand|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sand|1",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:vine|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cactus|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:reeds|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:pumpkin|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:melon_block|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:wheat|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potato|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:poisonous_potato|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:carrot|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:beetroot|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:waterlily|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dye|3",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:apple|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tallgrass|1",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sapling|4",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sapling|5",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:nether_wart|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:chorus_fruit|0",
+      "emc": 0
+    },
+    {
+      "item": "integrateddynamics:menril_sapling|0",
       "emc": 0
     },
     {
@@ -105,11 +201,11 @@
       "emc": 0
     },
     {
-      "item": "minecraft:log2|1",
+      "item": "minecraft:log2|0",
       "emc": 0
     },
     {
-      "item": "minecraft:log2|0",
+      "item": "minecraft:log2|1",
       "emc": 0
     },
     {
@@ -129,323 +225,11 @@
       "emc": 0
     },
     {
-      "item": "minecraft:sapling|5",
+      "item": "mysticalagriculture:crafting|48",
       "emc": 0
     },
     {
-      "item": "minecraft:sapling|4",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:stone|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:grass|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:dirt|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:dirt|1",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:dirt|2",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:cobblestone|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:sand|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:sand|1",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:planks|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:planks|1",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:planks|2",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:planks|3",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:planks|4",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:planks|5",
-      "emc": 0
-    },
-    {
-      "item": "quark:vertical_stained_planks|15",
-      "emc": 0
-    },
-    {
-      "item": "quark:vertical_stained_planks|14",
-      "emc": 0
-    },
-    {
-      "item": "quark:vertical_stained_planks|13",
-      "emc": 0
-    },
-    {
-      "item": "quark:vertical_stained_planks|12",
-      "emc": 0
-    },
-    {
-      "item": "quark:vertical_stained_planks|11",
-      "emc": 0
-    },
-    {
-      "item": "quark:vertical_stained_planks|10",
-      "emc": 0
-    },
-    {
-      "item": "quark:vertical_stained_planks|9",
-      "emc": 0
-    },
-    {
-      "item": "quark:vertical_stained_planks|8",
-      "emc": 0
-    },
-    {
-      "item": "quark:vertical_stained_planks|7",
-      "emc": 0
-    },
-    {
-      "item": "quark:vertical_stained_planks|6",
-      "emc": 0
-    },
-    {
-      "item": "quark:vertical_stained_planks|5",
-      "emc": 0
-    },
-    {
-      "item": "quark:vertical_stained_planks|4",
-      "emc": 0
-    },
-    {
-      "item": "quark:vertical_stained_planks|3",
-      "emc": 0
-    },
-    {
-      "item": "quark:vertical_stained_planks|2",
-      "emc": 0
-    },
-    {
-      "item": "quark:vertical_stained_planks|1",
-      "emc": 0
-    },
-    {
-      "item": "quark:vertical_stained_planks|0",
-      "emc": 0
-    },
-    {
-      "item": "quark:vertical_planks|5",
-      "emc": 0
-    },
-    {
-      "item": "quark:vertical_planks|4",
-      "emc": 0
-    },
-    {
-      "item": "quark:vertical_planks|3",
-      "emc": 0
-    },
-    {
-      "item": "quark:vertical_planks|2",
-      "emc": 0
-    },
-    {
-      "item": "quark:vertical_planks|1",
-      "emc": 0
-    },
-    {
-      "item": "quark:vertical_planks|0",
-      "emc": 0
-    },
-    {
-      "item": "quark:stained_planks|15",
-      "emc": 0
-    },
-    {
-      "item": "quark:stained_planks|14",
-      "emc": 0
-    },
-    {
-      "item": "quark:stained_planks|13",
-      "emc": 0
-    },
-    {
-      "item": "quark:stained_planks|12",
-      "emc": 0
-    },
-    {
-      "item": "quark:stained_planks|11",
-      "emc": 0
-    },
-    {
-      "item": "quark:stained_planks|10",
-      "emc": 0
-    },
-    {
-      "item": "quark:stained_planks|9",
-      "emc": 0
-    },
-    {
-      "item": "quark:stained_planks|8",
-      "emc": 0
-    },
-    {
-      "item": "quark:stained_planks|7",
-      "emc": 0
-    },
-    {
-      "item": "quark:stained_planks|6",
-      "emc": 0
-    },
-    {
-      "item": "quark:stained_planks|5",
-      "emc": 0
-    },
-    {
-      "item": "quark:stained_planks|4",
-      "emc": 0
-    },
-    {
-      "item": "quark:stained_planks|3",
-      "emc": 0
-    },
-    {
-      "item": "quark:stained_planks|2",
-      "emc": 0
-    },
-    {
-      "item": "quark:stained_planks|1",
-      "emc": 0
-    },
-    {
-      "item": "quark:stained_planks|0",
-      "emc": 0
-    },
-    {
-      "item": "littletiles:ltcoloredblock|13",
-      "emc": 0
-    },  
-    {
-      "item": "integrateddynamics:menril_sapling|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:chorus_fruit|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:nether_wart|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:tallgrass|1",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:apple|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:mossy_cobblestone|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:red_mushroom|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:waterlily|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:dye|3",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:brown_mushroom|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:beetroot|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:carrot|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:poisonous_potato|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:melon_block|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:wheat|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:potato|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:pumpkin|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:reeds|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:cactus|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:vine|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:mycelium|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:grass|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:red_mushroom|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:brown_mushroom|0",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:mycelium|0",
+      "item": "minecraft:water_bucket|0",
       "emc": 0
     },
     {
@@ -461,7 +245,7 @@
       "emc": 0
     },
     {
-      "item": "ceramics:unfired_clay",
+      "item": "ceramics:unfired_clay|0",
       "emc": 0
     },
     {
@@ -477,11 +261,11 @@
       "emc": 0
     },
     {
-      "item": "ceramics:clay_hard",
+      "item": "ceramics:clay_hard|0",
       "emc": 0
     },
     {
-      "item": "ceramics:clay_soft",
+      "item": "ceramics:clay_soft|0",
       "emc": 0
     },
     {
@@ -489,11 +273,11 @@
       "emc": 0
     },
     {
-      "item": "ceramics:clay_slab",
+      "item": "ceramics:clay_slab|0",
       "emc": 0
     },
     {
-      "item": "ceramics:porcelain",
+      "item": "ceramics:porcelain|0",
       "emc": 0
     },
     {
@@ -553,20 +337,40 @@
       "emc": 0
     },
     {
-      "item": "ceramics:porcelain|15",
+      "item": "ceramics:porcelain_bricks_stairs|0",
       "emc": 0
     },
     {
-      "item": "ceramics:porcelain_bricks_stairs",
+      "item": "ceramics:faucet|0",
       "emc": 0
     },
     {
-      "item": "ceramics:faucet",
+      "item": "ceramics:channel|0",
       "emc": 0
     },
     {
-      "item": "ceramics:channel",
-      "emc": 0
+      "item": "minecraft:leaves|0",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:leaves|1",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:leaves|2",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:leaves|3",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:leaves2|0",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:leaves2|1",
+      "emc": 4
     }
   ]
 }
