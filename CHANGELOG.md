@@ -4,9 +4,13 @@
 Alpha Build 0.0.1a --> 0.0.2a
 
 ---
+
 ## Added Mods
 
 * Corail Tombstone (4.0.0-1.12.2)
+* Dropt (1.12.2-1.18.0)
+* Simple Hammers (1.12.2-2.0.0.2)
+  
 ---
 
 ## Updated Mods
@@ -16,6 +20,7 @@ Alpha Build 0.0.1a --> 0.0.2a
 ## Removed Mods
 
 * Dimension Stages (1.12.2-2.0.23)
+* Ex Nihilo: Creatio (1.12.2-0.4.7.2)
 * Mob Stages (1.12.2-2.0.8)
 * Multiblock Stages (1.2.0)
 * Ore Stages (1.12.2-2.0.37)

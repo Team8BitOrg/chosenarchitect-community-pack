@@ -21,6 +21,21 @@ static ingredientsArray as IIngredient[] = [
     <ceramics:unfired_clay:6>, //Unfired Porcelain Faucet
     /* Tinkers' Construct */
     <tconstruct:soil> //Grout
+    /* Simple Hammers */
+    <simplehammers:wooden_hammer>,
+    <simplehammers:gold_hammer>,
+    <simplehammers:iron_hammer>,
+    <simplehammers:diamond_hammer>,
+    <simplehammers:obsidian_hammer>,
+    <simplehammers:bedrock_hammer>,
+    <simplehammers:wooden_excavator>,
+    <simplehammers:stone_excavator>,
+    <simplehammers:gold_excavator>,
+    <simplehammers:iron_excavator>,
+    <simplehammers:diamond_excavator>,
+    <simplehammers:obsidian_excavator>,
+    <simplehammers:bedrock_excavator>
+
     
 
 ];

@@ -40,6 +40,7 @@ function initIntegration() {
 function initItemModifiers() {
 	//scripts.itemModifiers.scriptname.init();
 	scripts.itemModifiers.burnTime.init();
+	scripts.itemModifiers.dropt.init();
 	scripts.itemModifiers.hardness.init();
 	scripts.itemModifiers.hide.init();
 	scripts.itemModifiers.loottables.init();
