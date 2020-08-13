@@ -7,9 +7,9 @@ Alpha Build 0.0.1a --> 0.0.2a
 
 ## Added Mods
 
+* AgriSeasons (1.12.2-1.0.2)
 * Corail Tombstone (4.0.0-1.12.2)
 * Dropt (1.12.2-1.18.0)
-* Simple Hammers (1.12.2-2.0.0.2)
   
 ---
 
@@ -35,9 +35,17 @@ Alpha Build 0.0.1a --> 0.0.2a
   * B:GenerateTin=false
   * B:generateAluminum=false
   * I:IridiumPerChunk=0
+
+* agricraft/config.cfg
+  * B:agricore_logging=false
+  * B:agricraft_logging=false
+  * B:"Disable Vanilla Farming"=true
+
+* agricraft/json/defaults/vanilla/plants/weed_plant.json
+  * "enabled": false,
   
 * AppliedEnergistics2/appliedenergistics2.cfg
-  * B:MeteoriteWorldGen=false //Adding custom meteors 
+  * B:MeteoriteWorldGen=false //Adding custom meteors
 
 * brandon3055/draconicevolution.cfg
   * B:disableOreSpawnNether=true
@@ -63,21 +71,11 @@ Alpha Build 0.0.1a --> 0.0.2a
 * cofh/world/05_astral.json
   * Added custom Astral Sorcery marble generation
 
-* exnihilocreatio/HammerRegistry.json
-     ```json
-     "tconstruct:seared": [
-        {
-          "item": "tconstruct:materials",
-          "amount": 4,
-          "miningLevel": 1,
-          "chance": 1.0,
-          "fortuneChance": 0.0
-        }  
-    ]
-    ``` 
-
 * jei/itemBlacklist.cfg
-    * Blacklisted a bunch of items from showing up in JEI
+  * Blacklisted a bunch of items from showing up in JEI
+
+* projecte/custom_emc.json
+  * Changed EMC values of items as needed
 
 * thebetweenlands/config.cfg
   * B:show_non_bl_gem_recipes=false
@@ -89,6 +87,14 @@ Alpha Build 0.0.1a --> 0.0.2a
 * astralsorcery.cfg
   * I:generateMarbleAmount=0
 
+* botania.cfg
+  * I:worldgen.flower.density=0
+  * I:worldgen.flower.patchChance=0
+  * I:worldgen.flower.patchSize=0
+  * I:worldgen.flower.quantity=0
+  * D:worldgen.flower.tallChance=0
+  * I:worldgen.mushroom.quantity=0
+
 * ceramics.cfg
   * B:sand=false
   * B:armor=false
@@ -99,13 +105,13 @@ Alpha Build 0.0.1a --> 0.0.2a
   * B:rawClayArmorEnabled=false
   * B:shears=false
 
-* charm.cfg    
-    * B:ExtraCurses=false
-    * B:WitchHatProtection=false
-    * B:Spectre=false
-    * B:SpectreHaunting=false
-    * B:AbandonedCrates=false
-    * B:NetherGoldDeposits=false
+* charm.cfg
+  * B:ExtraCurses=false
+  * B:WitchHatProtection=false
+  * B:Spectre=fals
+  * B:SpectreHaunting=false
+  * B:AbandonedCrates=fals
+  * B:NetherGoldDeposits=false
 
 * chisel.cfg
   * I:limestoneAmount=12
@@ -139,40 +145,139 @@ Alpha Build 0.0.1a --> 0.0.2a
   * B:IndexerRemote=false
   * B:ironwood=false
 
-* ice_and_fire.cfg   
-    * B:"Animals Fear Dragons"=false
-    * B:"Custom main menu"=false
-    * B:"Cyclops Griefing"=false
-    * B:"Generate All Structures on Superflat"=false
-    * B:"Generate Dragon Caves"=false
-    * B:"Generate Dragon Roosts"=false
-    * B:"Generate Dragon Skeletons"=false
-    * B:"Generate Glaciers"=false
-    * B:"Generate Hydra Caves"=false
-    * B:"Generate Mausoleums"=false
-    * B:"Generate Sapphire Ore"=false
-    * B:"Generate Silver Ore"=false
-    * B:"Generate Snow Villages"=false
-    * B:"Pixies Steal Items"=false
-    * B:"Spawn Amphitheres"=false
-    * B:"Spawn Cockatrices"=false
-    * B:"Spawn Cyclopes Caves"=false
-    * B:"Spawn Death Worms"=false
-    * B:"Spawn Gorgons"=false
-    * B:"Spawn Hippocampus"=false
-    * B:"Spawn Hippogryphs"=false
-    * B:"Spawn Liches"=false
-    * B:"Spawn Myrmex"=false
-    * B:"Spawn Sea Serpents"=false
-    * B:"Spawn Sirens"=false
-    * B:"Spawn Stymphalian Birds"=false
-    * B:"Spawn Trolls"=false
-    * B:"Spawn Wandering Cyclopes"=false
-    * B:"Stymphalian Birds drop ore dict items"=false
-    * B:"Tamed Dragon Griefing"=false
-    * B:"Trolls Drop Weapon"=false
-    * B:"Villagers Fear Dragons"=false
-    * B:Weezer=false
+* harvestcraft.cfg
+  * I:marketblockrecipeItem=-1
+
+* harvestcraft_fruittree.cfg
+  * almond {
+      B:enableGeneration=false
+  * apple {
+      B:enableGeneration=false
+  * apricot {
+      B:enableGeneration=false
+  * avocado {
+      B:enableGeneration=false
+  * banana {
+      B:enableGeneration=false
+  * breadfruit {
+      B:enableGeneration=false
+  * cashew {
+      B:enableGeneration=false
+  * cherry {
+      B:enableGeneration=false
+  * chestnut {
+      B:enableGeneration=false
+  * cinnamon {
+      B:enableGeneration=false
+  * coconut {
+      B:enableGeneration=false
+  * date {
+      B:enableGeneration=false
+  * dragonfruit {
+      B:enableGeneration=false
+  * durian {
+      B:enableGeneration=false
+  * fig {
+      B:enableGeneration=false
+  * gooseberry {
+      B:enableGeneration=false
+  * grapefruit {
+      B:enableGeneration=false
+  * guava {
+      B:enableGeneration=false
+  * hazelnut {
+      B:enableGeneration=false
+  * jackfruit {
+      B:enableGeneration=false
+  * lemon {
+      B:enableGeneration=false
+  * lime {
+      B:enableGeneration=false
+  * lychee {
+      B:enableGeneration=false
+  * mango {
+      B:enableGeneration=false
+  * maple {
+      B:enableGeneration=false
+  * nutmeg {
+      B:enableGeneration=false
+  * olive {
+      B:enableGeneration=false
+  * orange {
+      B:enableGeneration=false
+  * papaya {
+      B:enableGeneration=false
+  * paperbark {
+      B:enableGeneration=false
+  * passionfruit {
+      B:enableGeneration=false
+  * pawpaw {
+      B:enableGeneration=false
+  * peach {
+      B:enableGeneration=false
+  * pear {
+      B:enableGeneration=false
+  * pecan {
+      B:enableGeneration=false
+  * peppercorn {
+      B:enableGeneration=false
+  * persimmon {
+      B:enableGeneration=false
+  * pistachio {
+      B:enableGeneration=false
+  * plum {
+      B:enableGeneration=false
+  * pomegranate {
+      B:enableGeneration=false
+  * rambutan {
+      B:enableGeneration=false
+  * soursop {
+      B:enableGeneration=false
+  * spiderweb {
+      B:enableGeneration=false
+  * starfruit {
+      B:enableGeneration=false
+  * tamarind {
+      B:enableGeneration=false
+  * vanillabean {
+      B:enableGeneration=false
+  * walnut {
+      B:enableGeneration=false
+
+* ice_and_fire.cfg
+  * B:"Animals Fear Dragons"=false
+  * B:"Custom main menu"=false
+  * B:"Cyclops Griefing"=false
+  * B:"Generate All Structures on Superflat"=false
+  * B:"Generate Dragon Caves"=false
+  * B:"Generate Dragon Roosts"=false
+  * B:"Generate Dragon Skeletons"=false
+  * B:"Generate Glaciers"=false
+  * B:"Generate Hydra Caves"=false
+  * B:"Generate Mausoleums"=false
+  * B:"Generate Sapphire Ore"=false
+  * B:"Generate Silver Ore"=false
+  * B:"Generate Snow Villages"=false
+  * B:"Pixies Steal Items"=false
+  * B:"Spawn Amphitheres"=false
+  * B:"Spawn Cockatrices"=false
+  * B:"Spawn Cyclopes Caves"=false
+  * B:"Spawn Death Worms"=false
+  * B:"Spawn Gorgons"=false
+  * B:"Spawn Hippocampus"=false
+  * B:"Spawn Hippogryphs"=false
+  * B:"Spawn Liches"=false
+  * B:"Spawn Myrmex"=false
+  * B:"Spawn Sea Serpents"=false
+  * B:"Spawn Sirens"=false
+  * B:"Spawn Stymphalian Birds"=false
+  * B:"Spawn Trolls"=false
+  * B:"Spawn Wandering Cyclopes"=false
+  * B:"Stymphalian Birds drop ore dict items"=false
+  * B:"Tamed Dragon Griefing"=false
+  * B:"Trolls Drop Weapon"=false
+  * B:"Villagers Fear Dragons"=false
+  * B:Weezer=false
 
 * mekanism.cfg
   * I:CopperPerChunk=0
@@ -189,6 +294,16 @@ Alpha Build 0.0.1a --> 0.0.2a
   * B:"Enable Limestone"=false
   * B:"Enable Marble"=false
   * B:"Enable Curse"=false
+
+* tcompletement.cfg
+  * B:chocolate=false
+  * B:separateMelterTab=false
+  
+* TCompletementModules.cfg
+  * B:ExNihiloPlugin=false
+  * B:ModuleSteelworks=false
+  * B:ModuleArmor=false
+
 ---
 
 ## Script Changes
@@ -196,17 +311,23 @@ Alpha Build 0.0.1a --> 0.0.2a
 ---
 
 * _globals/mods/tinkers.zs
-    * Added methods for Melting, Alloying, Casting
+  * Added methods for Melting, Alloying, Casting
 
 * contenttweaker/fluids.zs
-    * Added liquidGravel as a fluid for Seared Stone alloying purposes
-    * Added liquidGrout as a fluid for Seared Stone alloying purposes
+  * Added liquidGravel as a fluid for Seared Stone alloying purposes
+  * Added liquidGrout as a fluid for Seared Stone alloying purposes
+  
+* contenttweaker/vanillaFactory.zs
+  * Added hammer for breaking down seared stone
 
+* itemModifiers/dropt.zs
+  * Added script for converting seared stone into bricks via hammer
+  
 * itemModifiers/tooltipsTinkers.zs
   * Added tip to all Stone item parts
 
 * modIntegrations/tinkers.zs
-    * Added methods for Alloying 2 clay, 1 gravel into 2 Seared Stone
+* Added methods for Alloying 2 clay, 1 gravel into 2 Seared Stone
 
 * recipes/mods/ceramics.zs
   * Created new recipe for the faucet
@@ -216,18 +337,23 @@ Alpha Build 0.0.1a --> 0.0.2a
   * Removed bucket recipe so castable only (Use clay buckets to start)
 
 * recipes/furnace.zs
-    * Removed grout->seared brick recipe
-    * Removed unfired faucet->faucet recipe
+  * Removed grout->seared brick recipe
+  * Removed unfired faucet->faucet recipe
 
 * recipes/hideCategory.zs
   * Hid both the forestry bottler and EnderIO Tank category because they are just bloat
 
 * recipes/removeAndHide.zs
-    * Removed Tinkers' Construct Grout
-    * AA Crystal shards
+  * Removed Tinkers' Construct Grout
+  * AA Crystal shards
+  * TCom Seared items
+  * Botania Fertilizer
+  * Agricraft Rakes
+  * Harvestcraft Market
 
 * stages.zs
   * Created Overworld and Skyblock stages
+  
 ---
 
 ## Asset Changes

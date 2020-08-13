@@ -18,10 +18,10 @@ Dropt.list("seared_brick")
       .matchBlocks(["tconstruct:seared", "tconstruct:seared:2", "tconstruct:seared:3"])
       .matchHarvester(Dropt.harvester()
           .type("PLAYER")
-          .mainHand("WHITELIST", [<simplehammers:stone_hammer>])
+          .mainHand("WHITELIST", [<contenttweaker:hammer>])
       )
       .addDrop(Dropt.drop()
-          .items([<tconstruct:materials>])
+        .items([<tconstruct:materials>], Dropt.range(4))
       )
   );
 
