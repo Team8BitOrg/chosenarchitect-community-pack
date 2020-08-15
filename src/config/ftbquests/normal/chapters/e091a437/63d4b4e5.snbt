@@ -1,0 +1,11 @@
+{
+	x: -10.0d,
+	y: -7.5d,
+	tasks: [{
+		uid: "bbc60a76",
+		type: "gamestage",
+		title: "Overworld",
+		icon: "minecraft:grass",
+		stage: "overworld"
+	}]
+}

@@ -71,6 +71,10 @@ Alpha Build 0.0.1a --> 0.0.2a
 * cofh/world/05_astral.json
   * Added custom Astral Sorcery marble generation
 
+* ftbquests/normal
+  * Started to add in the chapters for quests
+  * Added starting quest (might need to use triumph for these particular ones)
+  
 * jei/itemBlacklist.cfg
   * Blacklisted a bunch of items from showing up in JEI
 
@@ -357,5 +361,6 @@ Alpha Build 0.0.1a --> 0.0.2a
 ---
 
 ## Asset Changes
+* Added custom texture for the ContentTweaker Hammer
 
 ---

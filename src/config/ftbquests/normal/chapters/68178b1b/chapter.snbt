@@ -1,0 +1,7 @@
+{
+	title: "Advanced Rocketry",
+	icon: "libvulpes:advstructuremachine",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

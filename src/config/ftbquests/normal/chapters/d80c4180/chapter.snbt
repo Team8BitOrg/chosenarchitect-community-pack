@@ -1,0 +1,7 @@
+{
+	title: "Bragging Rights",
+	icon: "extendedcrafting:table_ultimate",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}
