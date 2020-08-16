@@ -10,10 +10,3 @@
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
-
-var hammer as Item = VanillaFactory.createItem("hammer");
-hammer.maxStackSize = 1;
-hammer.maxDamage = 58;
-hammer.toolClass = "pickaxe";
-hammer.toolLevel = 2;
-hammer.register();

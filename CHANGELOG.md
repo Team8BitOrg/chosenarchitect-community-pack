@@ -15,6 +15,8 @@ Alpha Build 0.0.1a --> 0.0.2a
 
 ## Updated Mods
 
+* Controlling (3.0.9 > 3.0.10)
+
 ---
 
 ## Removed Mods

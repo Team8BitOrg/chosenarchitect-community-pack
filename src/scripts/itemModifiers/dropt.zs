@@ -12,7 +12,7 @@ import crafttweaker.item.IIngredient;
 
 function init() {
     
-Dropt.list("seared_brick")
+/*Dropt.list("seared_brick")
 
   .add(Dropt.rule()
       .matchBlocks(["tconstruct:seared", "tconstruct:seared:2", "tconstruct:seared:3"])
@@ -23,6 +23,6 @@ Dropt.list("seared_brick")
       .addDrop(Dropt.drop()
         .items([<tconstruct:materials>], Dropt.range(4))
       )
-  );
+  );*/
 
 }
