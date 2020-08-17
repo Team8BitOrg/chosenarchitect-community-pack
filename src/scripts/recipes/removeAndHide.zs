@@ -26,16 +26,41 @@ static ingredientsArray as IIngredient[] = [
     <ceramics:unfired_clay:6>, //Unfired Porcelain Faucet
     /* Harvestcraft */
     <harvestcraft:market>,
+    /* Primal Tech */
+    <primal_tech:fire_sticks>,
+    <primal_tech:bone_pickaxe>,
+    <primal_tech:bone_axe>,
+    <primal_tech:bone_shovel>,
+    <primal_tech:fluid_bladder>,
+    <primal_tech:bone_shard>,
+    <primal_tech:plant_fibres>,
+    <primal_tech:twine>,
+    <primal_tech:rock>,
+    <primal_tech:wood_club>,
+    <primal_tech:bone_club>,
+    <primal_tech:stone_club>,
+    <primal_tech:flint_edged_disc>,
+    <primal_tech:bone_sword>,
+    <primal_tech:bone_knife>,
+    <primal_tech:leaf_bed>,
+    <primal_tech:flint_block>,
+    <primal_tech:charcoal_block>,
+    <primal_tech:clay_kiln>,
+    <primal_tech:stick_bundle>,
+    <primal_tech:fibre_torch>,
+    <primal_tech:wooden_hopper>,
+    <primal_tech:charcoal_hopper>,
+    <primal_tech:fibre_torch_lit>,
+    <primal_tech:work_stump>,
+    <primal_tech:stone_grill>,
+    <primal_tech:work_stump_upgraded>,
+    <primal_tech:water_saw>,
     /* Tinkers' Construct */
     <tconstruct:soil>, //Grout
     /* Tinkers' Complement */
     <tcomplement:alloy_tank>,
     <tcomplement:melter:8>,
     <tcomplement:melter>
-
-
-    
-
 ];
 
 function init() {

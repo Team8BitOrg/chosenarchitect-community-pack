@@ -1,7 +1,9 @@
 CAComPack = registerPreset("CAComPack", "images/World", "Who said that? I said that - me SigmaLP! I'm the best.", "RTG")
+CAComPack.addInitialPlayerFunction("triumph:default_start")
 
 CAComPack = registerPreset("CAComPackSky", "images/world", "Who said that? I said that - me SigmaLP! I'm the best.")
 CAComPack.registerDimension(0, "CACom/island")
+CAComPack.addInitialPlayerFunction("triumph:sky_start")
 
 setAsDefaultWorldType()
 printDocumentation(false)

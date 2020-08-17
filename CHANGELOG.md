@@ -10,6 +10,7 @@ Alpha Build 0.0.1a --> 0.0.2a
 * AgriSeasons (1.12.2-1.0.2)
 * Corail Tombstone (4.0.0-1.12.2)
 * Dropt (1.12.2-1.18.0)
+* Primal Tech (0.3.5)
   
 ---
 
@@ -295,6 +296,15 @@ Alpha Build 0.0.1a --> 0.0.2a
   * B:grave=false
   * B:explosiveEnchantment=false
   * B:flimFlamEnchantment=false
+
+* primal_tech.cfg
+  ```
+  S:"Stone Anvil Recipes" <
+        tconstruct:materials,0,4#tconstruct:seared,0
+        tconstruct:materials,0,4#tconstruct:seared,2
+        tconstruct:materials,0,4#tconstruct:seared,3
+     >
+  ```
 
 * quark.cfg
   * B:"Enable Limestone"=false
