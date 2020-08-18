@@ -30,6 +30,8 @@ function initRecipes() {
 	//scripts.recipes.mods.scriptname.init();
 	scripts.recipes.mods.ceramics.init();
 	scripts.recipes.mods.minecraft.init();
+	scripts.recipes.mods.mystagri.init();
+	scripts.recipes.mods.tinkers.init();
 }
 
 function initIntegration() {

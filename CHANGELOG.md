@@ -26,6 +26,8 @@ Alpha Build 0.0.1a --> 0.0.2a
 * Ex Nihilo: Creatio (1.12.2-0.4.7.2)
 * Mob Stages (1.12.2-2.0.8)
 * Multiblock Stages (1.2.0)
+* Ore Excavation (1.4.150)
+* Ore Excavation Integration (2.3.4)
 * Ore Stages (1.12.2-2.0.37)
 * Project: Vibrant Journeys (1.12.2-1.6.4)
 
@@ -140,6 +142,7 @@ Alpha Build 0.0.1a --> 0.0.2a
   * B:void_anvil=false
   * B:MagnetBlock=false
   * B:boomerang=false
+  * B:EnderWool=false
 
 * extrautils2.cfg
   * B:Contract=false
@@ -310,6 +313,7 @@ Alpha Build 0.0.1a --> 0.0.2a
   * B:"Enable Limestone"=false
   * B:"Enable Marble"=false
   * B:"Enable Curse"=false
+  * B:"Generate clay underground like dirt"=false
 
 * tcompletement.cfg
   * B:chocolate=false
@@ -352,6 +356,9 @@ Alpha Build 0.0.1a --> 0.0.2a
 * recipes/mods/minecraft.zs
   * Removed bucket recipe so castable only (Use clay buckets to start)
 
+* recipes/mods/mystagri.zd
+  * Staged all mod items to skyblock world type only
+
 * recipes/furnace.zs
   * Removed grout->seared brick recipe
   * Removed unfired faucet->faucet recipe
@@ -373,6 +380,5 @@ Alpha Build 0.0.1a --> 0.0.2a
 ---
 
 ## Asset Changes
-* Added custom texture for the ContentTweaker Hammer
 
 ---
