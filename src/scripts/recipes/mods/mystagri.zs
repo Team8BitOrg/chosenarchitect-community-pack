@@ -54,7 +54,7 @@ function init() {
     stageModItems("skyblock", "mysticalagradditions");
     stageModItems("skyblock", "mysticalcreations");
     stageModItems("skyblock", "matc");
-
+    
     stageLiquid("skyblock", <liquid:soulium>);
     stageLiquid("skyblock", <liquid:base_essence>);
     stageLiquid("skyblock", <liquid:inferium>);

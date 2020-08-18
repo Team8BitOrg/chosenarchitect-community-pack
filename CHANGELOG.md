@@ -293,6 +293,16 @@ Alpha Build 0.0.1a --> 0.0.2a
   * I:CopperPerChunk=0
   * I:TinPerChunk=0
 
+* mysticalagriculture.cfg
+  * B:essence_apples=false
+  * B:_gear_module_override=false
+  * I:dragon_supremium=0
+  * I:essence_chance=0
+  * B:harder_ingots=true
+  * I:passive_drop_chance=0
+  * I:seed_chance=85
+  * I:wither_supremium=0
+  
 * openblocks.cfg
   * B:dev_null=false
   * B:donation_station=false
