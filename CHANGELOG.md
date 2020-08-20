@@ -1,6 +1,48 @@
 ## CHANGELOG
 ---
 
+Alpha Build 0.0.2a --> 0.0.3a
+
+---
+## Added Mods
+
+* Chickens (6.1.0)
+* More Chickens (1.12.2-3.1.0)
+* Roost (1.12.2-2.0.10)
+* Tree Growing Simulator (1.0.1)
+
+---
+
+## Updated Mods
+
+* Crafttweaker (1.12-4.1.20.582 > 1.12-4.1.20.583)
+* Libnine (1.12.2-1.1.8 > 1.12.2-1.1.9)
+
+---
+
+## Removed Mods
+
+* Mystical Aggradditions (1.12.2-1.3.2)
+* Mystical Agriculture (1.12.2-1.7.5)
+* Mystical Agriculture Tiered Crystals (1.0.1-hotfix)
+* Mystical Creations (1.0.1-hotfix)
+
+---
+
+## Config Changes
+
+---
+
+## Script Changes
+
+---
+
+## Asset Changes
+
+---
+
+---
+
 Alpha Build 0.0.1a --> 0.0.2a
 
 ---

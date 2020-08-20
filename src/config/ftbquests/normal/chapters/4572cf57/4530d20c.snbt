@@ -1,0 +1,35 @@
+{
+	title: "Nether Quartz Chicken",
+	icon: {
+		id: "roost:chicken",
+		tag: {
+			Growth: 1,
+			Chicken: "chickens:quartzchicken",
+			Gain: 1,
+			Strength: 1
+		}
+	},
+	x: -8.5d,
+	y: -5.5d,
+	dependencies: [
+		"b9526054"
+	],
+	tasks: [{
+		uid: "1b40aef2",
+		type: "emc",
+		value: 1024L
+	}],
+	rewards: [{
+		uid: "8c840e50",
+		type: "item",
+		item: {
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "chickens:quartzchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}
+	}]
+}

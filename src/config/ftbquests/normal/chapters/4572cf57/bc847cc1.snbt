@@ -1,0 +1,35 @@
+{
+	title: "Ink Black Chicken",
+	icon: {
+		id: "roost:chicken",
+		tag: {
+			Growth: 1,
+			Chicken: "chickens:blackchicken",
+			Gain: 1,
+			Strength: 1
+		}
+	},
+	x: -10.0d,
+	y: -5.5d,
+	dependencies: [
+		"b9526054"
+	],
+	tasks: [{
+		uid: "e7f01359",
+		type: "emc",
+		value: 1024L
+	}],
+	rewards: [{
+		uid: "05c5a466",
+		type: "item",
+		item: {
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "chickens:blackchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}
+	}]
+}

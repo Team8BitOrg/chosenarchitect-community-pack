@@ -10,7 +10,6 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 import mods.ItemStages.stageModItems;
-import mods.ItemStages.stageLiquid;
 
 //Shaped Recipes
 static shapedRecipes as IIngredient[][][][IItemStack] = {
@@ -34,7 +33,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 };
 
 //Removals
-static removeRecipes as IItemStack[] = [
+static removeRecipes as IItemStack[] = [ 
 ];
 
 function init() {
@@ -50,16 +49,7 @@ function init() {
 
 	recipeHelper.removeRecipes(removeRecipes);
 
-    stageModItems("skyblock", "mysticalagriculture");
-    stageModItems("skyblock", "mysticalagradditions");
-    stageModItems("skyblock", "mysticalcreations");
-    stageModItems("skyblock", "matc");
-    
-    stageLiquid("skyblock", <liquid:soulium>);
-    stageLiquid("skyblock", <liquid:base_essence>);
-    stageLiquid("skyblock", <liquid:inferium>);
-    stageLiquid("skyblock", <liquid:prudentium>);
-    stageLiquid("skyblock", <liquid:intermedium>);
-    stageLiquid("skyblock", <liquid:superium>);
-    stageLiquid("skyblock", <liquid:supremium>);
+    stageModItems("skyblock", "chickens");
+    stageModItems("skyblock", "morechickens");
+    stageModItems("skyblock", "roost");
 }

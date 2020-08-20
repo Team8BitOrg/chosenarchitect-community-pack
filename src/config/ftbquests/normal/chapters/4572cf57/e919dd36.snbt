@@ -1,0 +1,35 @@
+{
+	title: "Red Chicken",
+	icon: {
+		id: "roost:chicken",
+		tag: {
+			Growth: 1,
+			Chicken: "chickens:redchicken",
+			Gain: 1,
+			Strength: 1
+		}
+	},
+	x: -11.5d,
+	y: -5.5d,
+	dependencies: [
+		"b9526054"
+	],
+	tasks: [{
+		uid: "fb96eb08",
+		type: "emc",
+		value: 1024L
+	}],
+	rewards: [{
+		uid: "c7f6cd5d",
+		type: "item",
+		item: {
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "chickens:redchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}
+	}]
+}

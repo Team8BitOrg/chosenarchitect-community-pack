@@ -1,0 +1,35 @@
+{
+	title: "Sand Chicken",
+	icon: {
+		id: "roost:chicken",
+		tag: {
+			Growth: 1,
+			Chicken: "chickens:sandchicken",
+			Gain: 1,
+			Strength: 1
+		}
+	},
+	x: -7.0d,
+	y: -5.5d,
+	dependencies: [
+		"b9526054"
+	],
+	tasks: [{
+		uid: "1d9db03c",
+		type: "emc",
+		value: 1024L
+	}],
+	rewards: [{
+		uid: "a8cd520b",
+		type: "item",
+		item: {
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "chickens:sandchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}
+	}]
+}

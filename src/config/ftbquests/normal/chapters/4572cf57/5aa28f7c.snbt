@@ -1,0 +1,35 @@
+{
+	title: "Cactus Green Chicken",
+	icon: {
+		id: "roost:chicken",
+		tag: {
+			Growth: 1,
+			Chicken: "chickens:greenchicken",
+			Gain: 1,
+			Strength: 1
+		}
+	},
+	x: -13.0d,
+	y: -5.5d,
+	dependencies: [
+		"b9526054"
+	],
+	tasks: [{
+		uid: "124c22de",
+		type: "emc",
+		value: 1024L
+	}],
+	rewards: [{
+		uid: "11933727",
+		type: "item",
+		item: {
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "chickens:greenchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}
+	}]
+}

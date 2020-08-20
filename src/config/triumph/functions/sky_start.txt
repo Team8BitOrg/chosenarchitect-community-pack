@@ -1,10 +1,4 @@
 gamestage silentadd @p skyblock
 give @p projectex:stone_table
 give @p minecraft:sapling
-give @p mysticalagriculture:stone_essence
-give @p mysticalagriculture:dirt_essence
-give @p mysticalagriculture:nature_essence
-give @p mysticalagriculture:wood_essence
-give @p mysticalagriculture:water_essence
-give @p mysticalagriculture:ice_essence
 
