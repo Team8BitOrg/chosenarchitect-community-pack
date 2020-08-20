@@ -54,7 +54,6 @@ static ingredientsArray as IIngredient[] = [
     <primal_tech:work_stump>,
     <primal_tech:stone_grill>,
     <primal_tech:work_stump_upgraded>,
-    <primal_tech:water_saw>,
     /* Tinkers' Construct */
     <tconstruct:soil>, //Grout
     /* Tinkers' Complement */

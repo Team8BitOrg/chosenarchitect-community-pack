@@ -1,4 +1,4 @@
 gamestage silentadd @p skyblock
 give @p projectex:stone_table
 give @p minecraft:sapling
-
+give @p minecraft:torch

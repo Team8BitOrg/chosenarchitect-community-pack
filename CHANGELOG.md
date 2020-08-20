@@ -31,6 +31,9 @@ Alpha Build 0.0.2a --> 0.0.3a
 
 ## Config Changes
 
+* itemphysic.json
+  * "enableIgniting": false
+
 ---
 
 ## Script Changes

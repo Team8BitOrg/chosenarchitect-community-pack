@@ -1,4 +1,5 @@
 {
+	title: "Overworld Quest Starter",
 	x: -6.5d,
 	y: -1.5d,
 	tasks: [{

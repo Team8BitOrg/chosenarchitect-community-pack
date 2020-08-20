@@ -34,7 +34,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 
 //Removals
 static removeRecipes as IItemStack[] = [
-    <minecraft:bucket>
+    <minecraft:bucket>,
+    <minecraft:hay_block>
 ];
 
 function init() {
@@ -49,4 +50,11 @@ function init() {
     recipeHelper.processNamed(namedShapelessRecipes);
 
 	recipeHelper.removeRecipes(removeRecipes);
+
+    //TODO: Find a better place for these to go
+    //Recipe for haybale staged for skyblock only
+    Recipes.addShaped("skyblock", <minecraft:hay_block>, [
+        [<minecraft:wheat>, <minecraft:wheat>],
+        [<minecraft:wheat>, <minecraft:wheat>]
+    ]);
 }
