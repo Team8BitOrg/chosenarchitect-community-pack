@@ -1,0 +1,19 @@
+{
+	title: "Egg",
+	icon: "minecraft:egg",
+	x: -5.5d,
+	y: -5.5d,
+	dependencies: [
+		"b9526054"
+	],
+	tasks: [{
+		uid: "73cb7ade",
+		type: "emc",
+		value: 4096L
+	}],
+	rewards: [{
+		uid: "6edb977e",
+		type: "item",
+		item: "minecraft:egg"
+	}]
+}
