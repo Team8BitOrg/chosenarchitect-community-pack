@@ -13,8 +13,8 @@ import crafttweaker.item.IIngredient;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
     <primal_tech:bone_shears> : [
 			[
-	  			[null, <minecraft:bone>,
-	   			[<minecraft:bone>]
+	  			[null, <minecraft:bone>],
+	   			[<minecraft:bone>, null]
 			]
 	]       
 };
