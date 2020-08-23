@@ -31,12 +31,32 @@ Alpha Build 0.0.2a --> 0.0.3a
 
 ## Config Changes
 
+* ftbquests/normal/chapters
+  * Added all chicken quests
+
+* ProjectE/mapping.cfg
+  * B:CustomConversionMapper=false
+
 * itemphysic.json
   * "enableIgniting": false
 
 ---
 
 ## Script Changes
+
+* recipes/mods/cyclic.zs
+  * Added recipe for Engraved Thunder
+  * Added recipe for Diamond Anvil
+
+* recipes/mods/misc.zs
+  * Changed recipe for bone shears to require 2 bones
+  * Added recipe to create a sapling from 4 living root
+
+* recipes/mods/projecte.zs
+  * Added 7x7 recipe for Philospher's Stone
+
+* recipes/removeAndHide.zs
+  * Added all craftable chicken eggs
 
 ---
 

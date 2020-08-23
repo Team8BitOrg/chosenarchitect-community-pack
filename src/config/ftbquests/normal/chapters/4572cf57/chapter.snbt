@@ -6,6 +6,7 @@
 		},
 		id: "projectex:arcane_tablet"
 	},
+	disable_toast: true,
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

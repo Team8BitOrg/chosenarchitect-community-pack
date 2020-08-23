@@ -16,6 +16,12 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[null, <minecraft:bone>],
 	   			[<minecraft:bone>, null]
 			]
+	],
+    <minecraft:sapling> : [
+			[
+	  			[<botania:manaresource:20>, <botania:manaresource:20>],
+	   			[<botania:manaresource:20>, <botania:manaresource:20>]
+			]
 	]       
 };
 
@@ -54,3 +60,4 @@ function init() {
 
 	recipeHelper.removeRecipes(removeRecipes);
 }
+

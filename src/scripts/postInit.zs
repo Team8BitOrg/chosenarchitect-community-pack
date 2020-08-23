@@ -30,8 +30,10 @@ function initRecipes() {
 	//scripts.recipes.mods.scriptname.init();
 	scripts.recipes.mods.ceramics.init();
 	scripts.recipes.mods.chickens.init();
+	scripts.recipes.mods.cyclic.init();
 	scripts.recipes.mods.minecraft.init();
 	scripts.recipes.mods.misc.init();
+	scripts.recipes.mods.projecte.init();
 	scripts.recipes.mods.tinkers.init();
 }
 

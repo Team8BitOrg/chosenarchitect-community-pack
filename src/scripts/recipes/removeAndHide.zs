@@ -24,6 +24,23 @@ static ingredientsArray as IIngredient[] = [
     <botania:fertilizer>,
     /* Ceramics */
     <ceramics:unfired_clay:6>, //Unfired Porcelain Faucet
+    /* Chickens */
+    <chickens:colored_egg:4>,
+    <chickens:colored_egg:6>,
+    <chickens:colored_egg:3>,
+    <chickens:colored_egg:2>,
+    <chickens:colored_egg:7>,
+    <chickens:colored_egg:12>,
+    <chickens:colored_egg:9>,
+    <chickens:colored_egg:14>,
+    <chickens:colored_egg:15>,
+    <chickens:colored_egg>,
+    <chickens:colored_egg:11>,
+    <chickens:colored_egg:8>,
+    <chickens:colored_egg:13>,
+    <chickens:colored_egg:10>,
+    <chickens:colored_egg:5>,
+    <chickens:colored_egg:1>,
     /* Harvestcraft */
     <harvestcraft:market>,
     /* Primal Tech */
@@ -39,7 +56,6 @@ static ingredientsArray as IIngredient[] = [
     <primal_tech:wood_club>,
     <primal_tech:bone_club>,
     <primal_tech:stone_club>,
-    <primal_tech:flint_edged_disc>,
     <primal_tech:bone_sword>,
     <primal_tech:bone_knife>,
     <primal_tech:leaf_bed>,

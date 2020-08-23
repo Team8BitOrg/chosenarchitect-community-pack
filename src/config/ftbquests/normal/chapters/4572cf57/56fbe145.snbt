@@ -9,15 +9,16 @@
 			Strength: 1
 		}
 	},
-	x: -7.0d,
-	y: -7.0d,
+	x: -13.5d,
+	y: -6.5d,
 	dependencies: [
-		"b9526054"
+		"f909d8e7"
 	],
+	hide: true,
 	tasks: [{
 		uid: "768ae6c5",
 		type: "emc",
-		value: 1024L
+		value: 2048L
 	}],
 	rewards: [{
 		uid: "32408aef",

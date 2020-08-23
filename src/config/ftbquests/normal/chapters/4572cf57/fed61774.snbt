@@ -1,0 +1,30 @@
+{
+	title: "Chicken",
+	icon: {
+		id: "roost:chicken",
+		tag: {
+			Chicken: "minecraft:chicken"
+		}
+	},
+	x: -15.0d,
+	y: -6.5d,
+	dependencies: [
+		"b9526054"
+	],
+	hide: true,
+	tasks: [{
+		uid: "67009e21",
+		type: "emc",
+		value: 2048L
+	}],
+	rewards: [{
+		uid: "41a802fa",
+		type: "item",
+		item: {
+			id: "roost:chicken",
+			tag: {
+				Chicken: "minecraft:chicken"
+			}
+		}
+	}]
+}
