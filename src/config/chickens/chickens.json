@@ -306,7 +306,7 @@
       "itemID": "minecraft:quartz",
       "metaID": 0
     },
-    "spawn_type": "HELL",
+    "spawn_type": "NONE",
     "parent_1": "",
     "parent_2": ""
   },
@@ -355,8 +355,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:blackchicken",
-    "parent_2": "chickens:logchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:glowstonechicken": {
     "name": "GlowstoneChicken",
@@ -371,8 +371,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:quartzchicken",
-    "parent_2": "chickens:yellowchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:gunpowderchicken": {
     "name": "GunpowderChicken",
@@ -387,8 +387,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:sandchicken",
-    "parent_2": "chickens:flintchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:redstonechicken": {
     "name": "RedstoneChicken",
@@ -403,8 +403,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:redchicken",
-    "parent_2": "chickens:sandchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:glasschicken": {
     "name": "GlassChicken",
@@ -419,8 +419,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:quartzchicken",
-    "parent_2": "chickens:redstonechicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:ironchicken": {
     "name": "IronChicken",
@@ -435,8 +435,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:flintchicken",
-    "parent_2": "chickens:whitechicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:coalchicken": {
     "name": "CoalChicken",
@@ -451,8 +451,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:flintchicken",
-    "parent_2": "chickens:logchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:brownchicken": {
     "name": "BrownChicken",
@@ -483,8 +483,8 @@
       "metaID": 0
     },
     "spawn_type": "NORMAL",
-    "parent_1": "chickens:ironchicken",
-    "parent_2": "chickens:yellowchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:snowballchicken": {
     "name": "SnowballChicken",
@@ -499,8 +499,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:bluechicken",
-    "parent_2": "chickens:logchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:waterchicken": {
     "name": "WaterChicken",
@@ -515,8 +515,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:gunpowderchicken",
-    "parent_2": "chickens:snowballchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:lavachicken": {
     "name": "LavaChicken",
@@ -531,8 +531,8 @@
       "metaID": 1
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:coalchicken",
-    "parent_2": "chickens:quartzchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:claychicken": {
     "name": "ClayChicken",
@@ -547,8 +547,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:snowballchicken",
-    "parent_2": "chickens:sandchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:leatherchicken": {
     "name": "LeatherChicken",
@@ -563,8 +563,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:stringchicken",
-    "parent_2": "chickens:brownchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:netherwartchicken": {
     "name": "NetherwartChicken",
@@ -579,8 +579,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:brownchicken",
-    "parent_2": "chickens:glowstonechicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:diamondchicken": {
     "name": "DiamondChicken",
@@ -595,8 +595,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:glasschicken",
-    "parent_2": "chickens:goldchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:blazechicken": {
     "name": "BlazeChicken",
@@ -611,8 +611,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:goldchicken",
-    "parent_2": "chickens:lavachicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:slimechicken": {
     "name": "SlimeChicken",
@@ -627,8 +627,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:claychicken",
-    "parent_2": "chickens:greenchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:enderchicken": {
     "name": "EnderChicken",
@@ -643,8 +643,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:diamondchicken",
-    "parent_2": "chickens:netherwartchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:ghastchicken": {
     "name": "GhastChicken",
@@ -659,8 +659,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:whitechicken",
-    "parent_2": "chickens:blazechicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:emeraldchicken": {
     "name": "EmeraldChicken",
@@ -675,8 +675,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:diamondchicken",
-    "parent_2": "chickens:greenchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:magmachicken": {
     "name": "MagmaChicken",
@@ -691,8 +691,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:slimechicken",
-    "parent_2": "chickens:blazechicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:pshardchicken": {
     "name": "pShardChicken",
@@ -707,8 +707,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:waterchicken",
-    "parent_2": "chickens:bluechicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:pcrystalchicken": {
     "name": "pCrystalChicken",
@@ -723,8 +723,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:waterchicken",
-    "parent_2": "chickens:emeraldchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:obsidianchicken": {
     "name": "obsidianChicken",
@@ -739,8 +739,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:waterchicken",
-    "parent_2": "chickens:lavachicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:soulsandchicken": {
     "name": "soulSandChicken",

@@ -1,6 +1,97 @@
 ## CHANGELOG
 ---
 
+Alpha Build 0.0.3a --> 0.0.4a
+
+---
+## Added Mods
+
+---
+
+## Updated Mods
+
+* AstralSorcery (1.12.2-1.10.25 > 1.12.2-1.10.26)
+* CraftTweaker (1.12-4.1.20.583 > 1.12-4.1.20.586)
+* Cyclic (1.12.2-1.20.4 > 1.12.2-1.20.5)
+* Integrated Dynamics (1.12.2-1.1.7 > 1.12.2-1.1.8)
+* JEI (1.12.2-4.15.0.297 > 1.12.2-4.16.1.302)
+* MysticalLib (1.12.2-1.7.0 > 1.12.2-1.9.0)
+* Simply Jetpacks (1.12.2-2.2.15.69 > 1.12.2-2.2.16.1)
+* Twilight Forest (1.12.2-3.10.1013-universal > 1.12.2-3.11.1020-universal[1])
+* YUNG's Better Mineshafts (Forge) (1.12.2-1.3 > 1.12.2-1.3.1)
+
+---
+
+## Removed Mods
+
+
+---
+
+## Config Changes
+* chickens/
+  * chickens.json
+    * Removed every parent from all chickens except from dye chickens
+  * morechickens.json
+    * Removed every parent from all chickens
+
+* topograhpy/structures
+  * Changed the starting island for the Skyblock world
+
+* cyclic_ores.cfg
+  * B:aquamarine_nether_ore=false
+  * B:aquamarine_end_ore=false
+  * B:bauxite_end_ore=false
+  * B:boron_end_ore=false
+  * B:cobalt_nether_ore=false
+  * B:cobalt_end_ore=false
+  * B:copper_end_ore=false
+  * B:dilithium_end_ore=false
+  * B:galena_end_ore=false
+  * B:iridium_end_ore=false
+  * B:lead_end_ore=false
+  * B:lithium_end_ore=false
+  * B:magnesium_end_ore=false
+  * B:mithril_end_ore=false
+  * B:nickel_end_ore=false
+  * B:nitre_end_ore=false
+  * B:osmium_end_ore=false
+  * B:platinum_end_ore=false
+  * B:quartz_black_nether_ore=false
+  * B:quartz_black_end_ore=false
+  * B:quartz_certus_end_ore=false
+  * B:quartz_certus_charged_end_ore=false
+  * B:ruby_end_ore=false
+  * B:sapphire_nether_ore=false
+  * B:sapphire_end_ore=false
+  * B:silver_end_ore=false
+  * B:thorium_end_ore=false
+  * B:tin_end_ore=false
+  * B:titanium_end_ore=false
+  * B:tritanium_nether_ore=false
+  * B:tritanium_end_ore=false
+  * B:tungsten_nether_ore=false
+  * B:tungsten_end_ore=false
+  * B:uranium_end_ore=false
+  * B:yellorite_nether_ore=false
+  * B:yellorite_end_ore=false
+  * B:zinc_nether_ore=false
+  * B:zinc_end_ore=false
+  
+* cyclicmagic.cfg
+  * B:"Nether Ore"=true
+
+---
+
+## Script Changes
+
+
+---
+
+## Asset Changes
+
+---
+---
+
 Alpha Build 0.0.2a --> 0.0.3a
 
 ---
