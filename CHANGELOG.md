@@ -76,14 +76,22 @@ Alpha Build 0.0.3a --> 0.0.4a
   * B:yellorite_end_ore=false
   * B:zinc_nether_ore=false
   * B:zinc_end_ore=false
+  * B:galena_nether_ore=false
+  * B:quartz_certus_nether_ore=false
+  * B:quartz_certus_charged_nether_ore=false
+  * B:ruby_nether_ore=false
   
 * cyclicmagic.cfg
   * B:"Nether Ore"=true
 
+* itemphysic.cfg
+  * "enableIgniting": true
+
 ---
 
 ## Script Changes
-
+* recipes/mods/chickens
+  * Staged all roost chickens with NBT so they don't show up in the overworld world type
 
 ---
 

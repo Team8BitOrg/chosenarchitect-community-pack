@@ -24,7 +24,7 @@
   },
   "chickens:smartchicken": {
     "name": "SmartChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": {
       "itemID": "minecraft:egg",
@@ -482,7 +482,7 @@
       "itemID": "minecraft:gold_nugget",
       "metaID": 0
     },
-    "spawn_type": "NORMAL",
+    "spawn_type": "NONE",
     "parent_1": "",
     "parent_2": ""
   },
