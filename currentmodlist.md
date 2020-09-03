@@ -37,6 +37,7 @@ Please remember this list is subject to change through development and testing.
 - Ceramics
 - Chameleon
 - Charm
+- Chickens
 - Chisel
 - Chisel & Bits
 - Client Tweaks
@@ -100,9 +101,6 @@ Please remember this list is subject to change through development and testing.
 - Guide-API
 - GunpowderLib
 - Ice and Fire
-- Immersive Engineering
-- Immersive Petroleum
-- Immersive Tech
 - InControl
 - Industrial Foregoing
 - InfinityLib
@@ -133,6 +131,7 @@ Please remember this list is subject to change through development and testing.
 - MPUtils Basic Tools
 - MPUtils
 - Modular Machinery
+- More Chickens
 - MoreOverlays
 - Morpheus
 - Mouse Tweaks
@@ -177,6 +176,8 @@ Please remember this list is subject to change through development and testing.
 - RFTools
 - RFTools Control
 - RFTools Power
+- Roost
+- Rough Mobs 2
 - Serene Seasons
 - ShadowFact's Forgelin
 - Simple Generators
