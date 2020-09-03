@@ -32,7 +32,6 @@ Please remember this list is subject to change through development and testing.
 - Bookshelf
 - Botania
 - Brandon's Core
-- Career Bees
 - Carry On
 - Ceramics
 - Chameleon
@@ -87,7 +86,6 @@ Please remember this list is subject to change through development and testing.
 - FastWorkbench
 - Flux Networks
 - FoamFix
-- Forestry
 - FTB Backups
 - FTB Guides
 - FTB Library
@@ -96,8 +94,6 @@ Please remember this list is subject to change through development and testing.
 - Funky Locomotion
 - Furnace Overhaul
 - Game Stages
-- GenDustry
-- GenDustry JEI Addon
 - Guide-API
 - GunpowderLib
 - Ice and Fire
@@ -120,7 +116,6 @@ Please remember this list is subject to change through development and testing.
 - Limitless Structure Blocks
 - Little Tiles
 - LLibrary
-- Magic Bees
 - Mantle
 - McJtyLib
 - Mekanism
@@ -138,10 +133,6 @@ Please remember this list is subject to change through development and testing.
 - MrCrayfish's Furniture Mod
 - MrCrayfish's Vehicle Mod
 - MTLib
-- Mystical Agradditions
-- Mystical Agriculture
-- Mystical Agriculture Tiered Crystals
-- Mystical Creations
 - Mystical Lib
 - Nature's Compass
 - Neat
@@ -153,8 +144,6 @@ Please remember this list is subject to change through development and testing.
 - OpenBlocks
 - OpenComputers
 - OpenModsLib
-- OreExcavation
-- OreExcavation Integration
 - p455w0rd's Library
 - Pam's Harvestcraft
 - Patchouli
@@ -189,7 +178,6 @@ Please remember this list is subject to change through development and testing.
 - Tesla Core Lib
 - Thermal Foundation
 - Thermal Innovation
-- Tinkers' JEI
 - Tinkers' Tool Leveling
 - Tinkers' Complement
 - Tinkers' Construct
