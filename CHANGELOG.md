@@ -86,6 +86,11 @@ Alpha Build 0.0.3a --> 0.0.4a
 
 * itemphysic.cfg
   * "enableIgniting": true
+  
+* roughmobs.cfg
+  * S:creeperInvisibleRange=0
+  * B:ghastProjectileImmunity=false
+  * B:"magma cubeDropLava"=false
 
 ---
 
