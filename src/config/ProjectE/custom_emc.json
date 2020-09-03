@@ -371,6 +371,14 @@
     {
       "item": "minecraft:leaves2|1",
       "emc": 4
+    },
+    {
+      "item": "minecraft:bone|0",
+      "emc": 144
+    },
+    {
+      "item": "minecraft:rotten_flesh|0",
+      "emc": 32
     }
   ]
 }
