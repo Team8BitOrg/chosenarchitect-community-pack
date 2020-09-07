@@ -9,7 +9,6 @@
 import mods.jei.JEI;
 
 static hideCategory as string[] = [
-    "forestry.bottler",
     "EIOTank"
 ];
 

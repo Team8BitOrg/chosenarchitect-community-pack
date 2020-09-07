@@ -11,6 +11,20 @@ import crafttweaker.item.IIngredient;
 
 //Shaped Recipes
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+    <tcomplement:porcelain_melter> : [
+			[
+	  			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
+	   			[<ceramics:unfired_clay:5>, <ceramics:porcelain_barrel>, <ceramics:unfired_clay:5>],
+	  			[<ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>]
+			]
+	],
+    <tcomplement:porcelain_alloy_tank> : [
+			[
+	  			[null, <ceramics:faucet>, null],
+	   			[<ceramics:porcelain_barrel>, null, <ceramics:porcelain_barrel>],
+	  			[null, <ceramics:faucet>, null]
+			]
+	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -32,6 +46,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 
 //Removals
 static removeRecipes as IItemStack[] = [ 
+    <tcomplement:porcelain_melter>,
+    <tcomplement:porcelain_alloy_tank>
 ];
 
 function init() {
