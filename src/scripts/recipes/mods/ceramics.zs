@@ -1,5 +1,5 @@
 /*
-    This script handles the recipes for ceramics
+    This script handles the recipes for Ceramics
 
     Note: These scripts are created and for the usage in modpacks curated by Team 8Bit. 
     You can use these scripts for reference and for learning but not for copying and 
@@ -41,6 +41,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 //Removals
 static removeRecipes as IItemStack[] = [
     <ceramics:unfired_clay:4>, //Unfired Porcelain
+    <ceramics:porcelain_barrel>, //Porcelain Barrel
 ];
 
 function init() {

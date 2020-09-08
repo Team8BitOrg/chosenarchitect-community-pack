@@ -16,12 +16,13 @@ import crafttweaker.entity.IEntityDefinition;
 import mods.tconstruct.Casting;
 import mods.tconstruct.Alloy;
 import mods.tconstruct.Melting;
+import mods.tconstruct.Drying;
 
 zenClass Tinkers {
     zenConstructor() {
     }
 
-    /* Casting */
+    #### Casting ####
     //Add Casting Table recipe
     function addCastingTable(output as IItemStack, cast as IIngredient, fluid as ILiquidStack, amount as int) {
         Casting.addTableRecipe(output, cast, fluid, amount);
@@ -52,7 +53,7 @@ zenClass Tinkers {
 		Casting.removeBasinRecipe(output);
 	}
 
-    /* Alloying */
+    #### Alloying #####
     //Add an Alloying recipe
     function addAlloying(output as ILiquidStack, inputs as ILiquidStack[]) {
         Alloy.addRecipe(output, inputs);
@@ -65,7 +66,7 @@ zenClass Tinkers {
         Alloy.removeRecipe(output, inputs);
     }
 
-    /* Melting */
+    #### Melting ####
     //Add a Melting recipe
     function addMelting(output as ILiquidStack, input as IIngredient) {
         Melting.addRecipe(output, input);
@@ -86,5 +87,19 @@ zenClass Tinkers {
     }
     function removeMeltingEntity(entity as IEntityDefinition) {
         Melting.removeEntityMelting(entity);
+    }
+
+    #### Drying ####
+    //Add a Drying Rack recipe
+    function addDrying(output as IItemStack, input as IIngredient, time as int) {
+        Drying.addRecipe(output, input, time);
+    }
+
+    //Remove a Drying Rack recipe
+    function removeDrying(output as IItemStack) {
+        Drying.removeRecipe(output);
+    }
+    function removeDrying(output as IItemStack, input as IItemStack) {
+        Drying.removeRecipe(output, input);
     }
 }

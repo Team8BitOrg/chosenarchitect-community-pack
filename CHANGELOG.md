@@ -16,7 +16,7 @@
 ---
 
 ## Removed Mods
-
+* Primal Tech (0.3.5)
 ---
 
 ## Config Changes
@@ -26,24 +26,15 @@
 ---
 
 ## Script Changes
-* contenttweaker/fluid.zs
-    * Removed Liquid Gravel
-    * Added Molten Sand fluid
-
-* itemModifiers/rename.zs
-    * Renanmed White Porcelain Barrel to just Porcelain Barrel
-
-* modIntegrations
-    * Changed the recipes for Alloying Seared Stone
-    * Added recipe for making Molten Sand
-    * Remove any unwanted scripts from here
-
-* recipes/mods/tinkers.zs
-    * Changed the recipe for Porcelain Melter
-    * Changed the recipe for the Alloying Tank
-
-* recipes/removeAndHide.zs
-    * Removed some unwanted stuff from the Ceramics mod
+* Removed Liquid Gravel
+* Added Molten Sand fluid
+* Renanmed White Porcelain Barrel to just Porcelain Barrel
+* Changed the recipes for Alloying Seared Stone
+* Added recipe for making Molten Sand
+* Remove any unwanted scripts from hereS
+* Changed the recipe for Porcelain Melter
+* Changed the recipe for the Alloying Tank
+* Removed some unwanted stuff from the Ceramics mod
 ---
 
 ## Asset Changes

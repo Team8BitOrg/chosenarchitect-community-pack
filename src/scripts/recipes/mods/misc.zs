@@ -1,5 +1,5 @@
 /*
-    This script handles the recipes for <modname>
+    This script handles the recipes for Misc Items
 
     Note: These scripts are created and for the usage in modpacks curated by Team 8Bit. 
     You can use these scripts for reference and for learning but not for copying and 
@@ -11,12 +11,6 @@ import crafttweaker.item.IIngredient;
 
 //Shaped Recipes
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-    <primal_tech:bone_shears> : [
-			[
-	  			[null, <minecraft:bone>],
-	   			[<minecraft:bone>, null]
-			]
-	],
     <minecraft:sapling> : [
 			[
 	  			[<botania:manaresource:20>, <botania:manaresource:20>],
@@ -43,8 +37,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 };
 
 //Removals
-static removeRecipes as IItemStack[] = [
-    <primal_tech:bone_shears>   
+static removeRecipes as IItemStack[] = [  
 ];
 
 function init() {

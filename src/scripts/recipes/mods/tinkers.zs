@@ -24,7 +24,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	   			[<ceramics:porcelain_barrel>, null, <ceramics:porcelain_barrel>],
 	  			[null, <ceramics:faucet>, null]
 			]
-	]
+	],
+    <tconstruct:smeltery_controller> : [
+			[
+	  			[<minecraft:brick>, <tconstruct:seared>, <minecraft:brick>],
+	   			[<tconstruct:seared>, <tcomplement:porcelain_melter>, <tconstruct:seared>],
+	  			[<minecraft:brick>, <thermalfoundation:material:129>, <minecraft:brick>]
+			]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -47,7 +54,13 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 //Removals
 static removeRecipes as IItemStack[] = [ 
     <tcomplement:porcelain_melter>,
-    <tcomplement:porcelain_alloy_tank>
+    <tcomplement:porcelain_alloy_tank>,
+    <tconstruct:smeltery_controller>,
+    <tconstruct:seared_tank>,
+    <tconstruct:faucet>,
+    <tconstruct:casting>,
+    <tconstruct:smeltery_io>,
+    <tconstruct:casting:1>
 ];
 
 function init() {

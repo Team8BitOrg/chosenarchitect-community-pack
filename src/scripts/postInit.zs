@@ -46,10 +46,11 @@ function initItemModifiers() {
 	//scripts.itemModifiers.scriptname.init();
 	scripts.itemModifiers.burnTime.init();
 	scripts.itemModifiers.dropt.init();
+	scripts.itemModifiers.durability.init();
 	scripts.itemModifiers.hardness.init();
 	scripts.itemModifiers.hide.init();
 	scripts.itemModifiers.loottables.init();
+	scripts.itemModifiers.massTooltips.init();
 	scripts.itemModifiers.rename.init();
 	scripts.itemModifiers.tooltips.init();
-	scripts.itemModifiers.tooltipsTinkers.init();
 }

@@ -10,19 +10,19 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
 static ingredientsArray as IIngredient[] = [
-    /* Actually Additions */
+    #### Actually Additions ####
     <actuallyadditions:item_crystal_shard>,
     <actuallyadditions:item_crystal_shard:1>,
     <actuallyadditions:item_crystal_shard:2>,
     <actuallyadditions:item_crystal_shard:3>,
     <actuallyadditions:item_crystal_shard:4>,
     <actuallyadditions:item_crystal_shard:5>,
-    /* Agricraft */
+    #### Agricraft ####
     <agricraft:rake>,
     <agricraft:rake:1>,
-    /* Botania */
+    #### Botania ####
     <botania:fertilizer>,
-    /* Ceramics */
+    #### Ceramics #####
     <ceramics:unfired_clay:6>, //Unfired Porcelain Faucet
     <ceramics:clay_barrel>,
     <ceramics:clay_barrel:*>,
@@ -67,7 +67,9 @@ static ingredientsArray as IIngredient[] = [
     <ceramics:porcelain:13>,
     <ceramics:porcelain:14>,
     <ceramics:porcelain:15>,
-    /* Chickens */
+    <ceramics:unfired_clay:7>,
+    <ceramics:channel>,
+    #### Chickens ####
     <chickens:colored_egg:4>,
     <chickens:colored_egg:6>,
     <chickens:colored_egg:3>,
@@ -84,43 +86,20 @@ static ingredientsArray as IIngredient[] = [
     <chickens:colored_egg:10>,
     <chickens:colored_egg:5>,
     <chickens:colored_egg:1>,
-    /* Harvestcraft */
+    #### Harvestcraft ####
     <harvestcraft:market>,
-    /* Primal Tech */
-    <primal_tech:fire_sticks>,
-    <primal_tech:bone_pickaxe>,
-    <primal_tech:bone_axe>,
-    <primal_tech:bone_shovel>,
-    <primal_tech:fluid_bladder>,
-    <primal_tech:bone_shard>,
-    <primal_tech:plant_fibres>,
-    <primal_tech:twine>,
-    <primal_tech:rock>,
-    <primal_tech:wood_club>,
-    <primal_tech:bone_club>,
-    <primal_tech:stone_club>,
-    <primal_tech:bone_sword>,
-    <primal_tech:bone_knife>,
-    <primal_tech:leaf_bed>,
-    <primal_tech:charcoal_block>,
-    <primal_tech:clay_kiln>,
-    <primal_tech:stick_bundle>,
-    <primal_tech:fibre_torch>,
-    <primal_tech:wooden_hopper>,
-    <primal_tech:charcoal_hopper>,
-    <primal_tech:fibre_torch_lit>,
-    <primal_tech:work_stump>,
-    <primal_tech:stone_grill>,
-    <primal_tech:work_stump_upgraded>,
-    /* Tinkers' Construct */
-    <tconstruct:soil>, //Grout
-    /* Tinkers' Complement */
+    #### Tinkers' Complement ####
     <tcomplement:alloy_tank>,
     <tcomplement:melter:8>,
     <tcomplement:melter>,
     <tcomplement:porcelain_melter:8>,
     <tcomplement:porcelain_tank:1>,
-    <tcomplement:porcelain_tank:2>
+    <tcomplement:porcelain_tank:2>,
+    #### Tinkers' Construct #####
+    <tconstruct:soil>, //Grout
+    <tconstruct:seared_tank:1>,
+    <tconstruct:seared_tank:2>,
+    <tconstruct:channel>,
 ];
 
 function init() {

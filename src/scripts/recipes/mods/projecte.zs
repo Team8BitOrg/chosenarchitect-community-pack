@@ -1,5 +1,5 @@
 /*
-    This script handles the recipes for ceramics
+    This script handles the recipes for ProjectE(X)
 
     Note: These scripts are created and for the usage in modpacks curated by Team 8Bit. 
     You can use these scripts for reference and for learning but not for copying and 
