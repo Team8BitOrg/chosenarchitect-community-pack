@@ -5,7 +5,8 @@
 
 ---
 ## Added Mods
-
+Scavenge (1.12-1.8.3.2)
+Scavenge-GameStages (1.12-1.2)
 ---
 
 ## Updated Mods
