@@ -1,0 +1,72 @@
+{
+    "block_pools":
+        [
+            {
+                "name": "Clay",
+                "type": {
+                    "type": "ore",
+                    "name": "sand"
+                },
+                "clicktype": "right",
+                "properties": [
+                    {
+                        "type": "require_sneak"
+                    },
+                    {
+                        "type": "drop_items"
+                    },
+                    {
+                        "type": "play_sound",
+                        "name": "block.sand.hit"
+                    },
+                    {
+                        "type": "consume_block",
+                        "chance": 10,
+                        "dropBlock": false
+                    },
+                    {
+                        "type": "add_hunger",
+                        "exhaustion": "true",
+                        "amount": "0.5f"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "minecraft:clay_ball",
+                        "chance": 33
+                    }
+                ]
+            },
+            {
+                "name": "Sand",
+                "type": {
+                    "type": "ore",
+                    "name": "dirt"
+                },
+                "clicktype": "right",
+                "properties": [
+                    {
+                        "type": "require_sneak"
+                    },
+                    {
+                        "type": "drop_items"
+                    },
+                    {
+                        "type": "play_sound",
+                        "name": "block.dirt.hit"
+                    },
+                    {
+                        "type": "consume_block",
+                        "chance": 1,
+                        "dropBlock": true
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "minecraft:sand",
+                        "chance": 15
+                    }
+                ]
+            }
+        ]
+}
