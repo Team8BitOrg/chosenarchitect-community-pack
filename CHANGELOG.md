@@ -28,10 +28,10 @@
 ## Script Changes
 * Removed Liquid Gravel
 * Added Molten Sand fluid
-* Renanmed White Porcelain Barrel to just Porcelain Barrel
+* Renamed White Porcelain Barrel to just Porcelain Barrel
 * Changed the recipes for Alloying Seared Stone
 * Added recipe for making Molten Sand
-* Remove any unwanted scripts from hereS
+* Removed any unwanted scripts
 * Changed the recipe for Porcelain Melter
 * Changed the recipe for the Alloying Tank
 * Removed some unwanted stuff from the Ceramics mod
