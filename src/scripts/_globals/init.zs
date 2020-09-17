@@ -10,6 +10,7 @@
 
 //Mods
 //global modname as scripts._globals.mods.modname.ModName = scripts._globals.mods.modname.ModName();
+global botania as scripts._globals.mods.botania.Botania = scripts._globals.mods.botania.Botania();
 global tinkers as scripts._globals.mods.tinkers.Tinkers = scripts._globals.mods.tinkers.Tinkers();
 
 //Utils

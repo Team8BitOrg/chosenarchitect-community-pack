@@ -1,7 +1,0 @@
-{
-	title: "Forestry",
-	icon: "forestry:sturdy_machine",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

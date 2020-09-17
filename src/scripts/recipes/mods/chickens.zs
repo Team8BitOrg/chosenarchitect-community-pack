@@ -91,6 +91,34 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	   			[<minecraft:wheat_seeds>, <minecraft:egg>, <minecraft:wheat_seeds>],
 	  			[<industrialforegoing:plastic>, <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:logchicken", Gain: 1, Strength: 1}), <industrialforegoing:plastic>]
 			]
+	],
+    <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:claychicken", Gain: 1, Strength: 1}) : [
+			[
+	  			[<minecraft:clay>, <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:sandchicken", Gain: 1, Strength: 1}), <minecraft:clay>],
+	   			[<minecraft:wheat_seeds>, <minecraft:egg>, <minecraft:wheat_seeds>],
+	  			[<minecraft:clay>, <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:snowballchicken", Gain: 1, Strength: 1}), <minecraft:clay>]
+			]
+	],
+    <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:glasschicken", Gain: 1, Strength: 1}) : [
+			[
+	  			[<minecraft:glass>, <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:quartzchicken", Gain: 1, Strength: 1}), <minecraft:glass>],
+	   			[<minecraft:wheat_seeds>, <minecraft:egg>, <minecraft:wheat_seeds>],
+	  			[<minecraft:glass>, <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:redstonechicken", Gain: 1, Strength: 1}), <minecraft:glass>]
+			]
+	],
+    <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:goldchicken", Gain: 1, Strength: 1}) : [
+			[
+	  			[<minecraft:gold_ingot>, <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:ironchicken", Gain: 1, Strength: 1}), <minecraft:gold_ingot>],
+	   			[<minecraft:wheat_seeds>, <minecraft:egg>, <minecraft:wheat_seeds>],
+	  			[<minecraft:gold_ingot>, <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:yellowchicken", Gain: 1, Strength: 1}), <minecraft:gold_ingot>]
+			]
+	],
+    <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:lavachicken", Gain: 1, Strength: 1}) : [
+			[
+	  			[<minecraft:lava_bucket>, <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:quartzchicken", Gain: 1, Strength: 1}), <minecraft:lava_bucket>],
+	   			[<minecraft:wheat_seeds>, <minecraft:egg>, <minecraft:wheat_seeds>],
+	  			[<minecraft:lava_bucket>, <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:coalchicken", Gain: 1, Strength: 1}), <minecraft:lava_bucket>]
+			]
 	]
 };
 

@@ -5,8 +5,8 @@
 
 ---
 ## Added Mods
-Scavenge (1.12-1.8.3.2)
-Scavenge-GameStages (1.12-1.2)
+* Scavenge (1.12-1.8.3.2)
+* Scavenge-GameStages (1.12-1.2)
 ---
 
 ## Updated Mods
@@ -23,7 +23,9 @@ Scavenge-GameStages (1.12-1.2)
 ## Config Changes
 * jei/itemBlacklist.cfg
     * Removed unwanted stuff from JEI
-
+    
+* topography/structures
+    * Change the island up a little bit
 ---
 
 ## Script Changes
@@ -36,6 +38,7 @@ Scavenge-GameStages (1.12-1.2)
 * Changed the recipe for Porcelain Melter
 * Changed the recipe for the Alloying Tank
 * Removed some unwanted stuff from the Ceramics mod
+* Removed Ore from being able to be smelted in a furnace
 ---
 
 ## Asset Changes

@@ -9,7 +9,12 @@
 import mods.jei.JEI;
 
 static hideCategory as string[] = [
-    "EIOTank"
+    "EIOTank",
+    "chickens.Laying",
+    "chickens.Breeding",
+    "chickens.Drops",
+    "chickens.Throws",
+    "chickens.Henhousing",
 ];
 
 function init() {

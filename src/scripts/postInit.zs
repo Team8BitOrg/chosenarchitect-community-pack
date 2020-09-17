@@ -39,6 +39,7 @@ function initRecipes() {
 
 function initIntegration() {
 	//scripts.modIntegrations.mods.scriptname.init();
+	scripts.modIntegrations.botania.init();
 	scripts.modIntegrations.tinkers.init();
 }
 

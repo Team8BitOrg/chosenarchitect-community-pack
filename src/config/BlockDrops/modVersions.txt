@@ -17,6 +17,7 @@
   "forgelin": "1.8.4",
   "stg": "1.12.2-1.2.3",
   "llibrary": "1.7.19",
+  "scavenge": "1.8",
   "apotheosis": "1.12.4",
   "darkutils": "1.8.230",
   "betterbuilderswands": "0.13.2",
