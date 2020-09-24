@@ -28,6 +28,11 @@ function initRecipes() {
 
 	//Mods
 	//scripts.recipes.mods.scriptname.init();
+	#### Astral Sorcery ####
+	scripts.recipes.astralSorcery.chickens.init();
+	#### Extended Crafting ####
+	scripts.recipes.extendedCrafting.chickens.init();
+	#### Normal Recipes #####
 	scripts.recipes.mods.ceramics.init();
 	scripts.recipes.mods.chickens.init();
 	scripts.recipes.mods.cyclic.init();
@@ -39,6 +44,7 @@ function initRecipes() {
 
 function initIntegration() {
 	//scripts.modIntegrations.mods.scriptname.init();
+	scripts.modIntegrations.appliedenergistics.init();
 	scripts.modIntegrations.botania.init();
 	scripts.modIntegrations.tinkers.init();
 }

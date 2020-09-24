@@ -15,6 +15,7 @@ static hideCategory as string[] = [
     "chickens.Drops",
     "chickens.Throws",
     "chickens.Henhousing",
+    "roost.catching",
 ];
 
 function init() {

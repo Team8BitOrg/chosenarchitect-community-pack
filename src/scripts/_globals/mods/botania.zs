@@ -13,6 +13,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 import mods.botania.ManaInfusion;
+import mods.botania.RuneAltar;
 
 zenClass Botania {
     zenConstructor() {
@@ -32,8 +33,19 @@ zenClass Botania {
         ManaInfusion.addConjuration(output, input, mana);
     }
 
-    //Remove ManaInfusion's
+    //Remove ManaInfusion
     function removeInfusion(output as IIngredient) {
         ManaInfusion.removeRecipe(output);
+    }
+
+    #### Rune Altar ####
+    //Add Recipe
+    function addRuneAltar(output as IItemStack, input as IIngredient[], mana as int) {
+        RuneAltar.addRecipe(output, input, mana);
+    }
+
+    //Remove Recipe
+    function removeRuneAltar(output as IIngredient) {
+        RuneAltar.removeRecipe(output);
     }
 }

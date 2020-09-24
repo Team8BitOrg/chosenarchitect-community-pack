@@ -1,5 +1,5 @@
 /*
-    This script handles the recipes for <modname>
+    This script handles the recipes for Tinkers Construct, Tinkers' Complement and Construct's Armoury
 
     Note: These scripts are created and for the usage in modpacks curated by Team 8Bit. 
     You can use these scripts for reference and for learning but not for copying and 
@@ -32,6 +32,33 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[<minecraft:brick>, <thermalfoundation:material:129>, <minecraft:brick>]
 			]
 	],
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy", Count: 1 as byte, Damage: 0 as short}}) : [
+		[
+			[<actuallyadditions:block_crystal_empowered:3>, <actuallyadditions:block_crystal_empowered:3>, <actuallyadditions:block_crystal_empowered:3>],
+			[<actuallyadditions:block_crystal_empowered:5>, <tconstruct:tooltables:3>, <actuallyadditions:block_crystal_empowered:5>],
+			[<actuallyadditions:block_crystal_empowered:5>, null, <actuallyadditions:block_crystal_empowered:5>]
+		]
+	],
+	<conarm:armorforge>.withTag({textureBlock: {id: "enderio:block_alloy", Count: 1 as byte, Damage: 0 as short}}) : [
+		[
+			[<actuallyadditions:block_crystal_empowered:3>, <actuallyadditions:block_crystal_empowered:3>, <actuallyadditions:block_crystal_empowered:3>],
+			[<actuallyadditions:block_crystal_empowered:5>, <conarm:armorstation>, <actuallyadditions:block_crystal_empowered:5>],
+			[<actuallyadditions:block_crystal_empowered:5>, null, <actuallyadditions:block_crystal_empowered:5>]
+		]
+	],
+	<tconstruct:slimesling> : [
+		[
+			[<actuallyadditions:item_crystal:2>, <ore:blockSlimeCongealed>, <actuallyadditions:item_crystal:2>],
+			[<ore:blockSlimeCongealed>, null, <ore:slimeball>],
+			[null, <ore:blockSlimeCongealed>, null]
+		]
+	],
+	<tconstruct:slime_boots> : [
+		[
+			[<industrialforegoing:plastic>, <industrialforegoing:plastic>, <industrialforegoing:plastic>],
+			[<ore:blockSlimeCongealed>, <thebetweenlands:rubber_boots>, <ore:blockSlimeCongealed>]
+		]
+	]	
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -60,7 +87,11 @@ static removeRecipes as IItemStack[] = [
     <tconstruct:faucet>,
     <tconstruct:casting>,
     <tconstruct:smeltery_io>,
-    <tconstruct:casting:1>
+    <tconstruct:casting:1>,
+	<tconstruct:toolforge>,
+	<conarm:armorforge>,
+	<tconstruct:slimesling>,
+	<tconstruct:slime_boots>,
 ];
 
 function init() {

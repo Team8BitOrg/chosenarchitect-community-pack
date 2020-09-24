@@ -24,9 +24,11 @@ function init() {
         <minecraft:golden_shovel>,
         <minecraft:golden_hoe>,
         <minecraft:diamond_sword>,
+        <minecraft:diamond_pickaxe>,
         <minecraft:diamond_axe>,
         <minecraft:diamond_shovel>,
         <minecraft:iron_sword>,
+        <minecraft:iron_pickaxe>,
         <minecraft:iron_axe>,
         <minecraft:iron_shovel>,
         <minecraft:iron_hoe>,
@@ -41,10 +43,6 @@ function init() {
     for item in craftingItems {
         item.maxDamage = 1;
     }
-
-    #### Singular Item Changes ####
-    <minecraft:iron_pickaxe>.maxDamage = 50;
-    <minecraft:diamond_pickaxe>.maxDamage = 15;
 }
 
 

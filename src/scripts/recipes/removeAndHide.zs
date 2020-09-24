@@ -100,6 +100,12 @@ static ingredientsArray as IIngredient[] = [
     <tconstruct:seared_tank:1>,
     <tconstruct:seared_tank:2>,
     <tconstruct:channel>,
+    <tconstruct:slimesling:1>,
+    <tconstruct:slimesling:2>,
+    <tconstruct:slimesling:4>,
+    <tconstruct:slime_boots:1>,
+    <tconstruct:slime_boots:2>,
+    <tconstruct:slime_boots:4>,
 ];
 
 function init() {

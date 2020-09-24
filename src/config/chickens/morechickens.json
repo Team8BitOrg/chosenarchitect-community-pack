@@ -122,8 +122,8 @@
     "Name": "siliconchicken",
     "Is Enabled": true,
     "Lay Coefficient": 1.0,
-    "Lay Item": "nuclearcraft:gem:6",
-    "Drop Item": "nuclearcraft:gem:6",
+    "Lay Item": "enderio:item_material:5",
+    "Drop Item": "enderio:item_material:5",
     "Spawn Type": "NONE",
     "Parent 1": "",
     "Parent 2": ""
@@ -132,8 +132,8 @@
     "Name": "sulfurchicken",
     "Is Enabled": true,
     "Lay Coefficient": 1.0,
-    "Lay Item": "thermalfoundation:material:771",
-    "Drop Item": "thermalfoundation:material:771",
+    "Lay Item": "thebetweenlands:items_misc:18",
+    "Drop Item": "thebetweenlands:items_misc:18",
     "Spawn Type": "NONE",
     "Parent 1": "",
     "Parent 2": ""
