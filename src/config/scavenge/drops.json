@@ -28,6 +28,9 @@
                         "type": "add_hunger",
                         "exhaustion": "true",
                         "amount": "0.5f"
+                    },
+                    {
+                        "type": "require_empty_hand"
                     }
                 ],
                 "drops": [
@@ -59,6 +62,9 @@
                         "type": "consume_block",
                         "chance": 1,
                         "dropBlock": true
+                    },
+                    {
+                        "type": "require_empty_hand"
                     }
                 ],
                 "drops": [
