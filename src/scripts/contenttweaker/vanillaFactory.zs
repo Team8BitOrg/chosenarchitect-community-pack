@@ -10,3 +10,6 @@
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
+
+var clayDust as Item = VanillaFactory.createItem("clay_dust");
+clayDust.register();

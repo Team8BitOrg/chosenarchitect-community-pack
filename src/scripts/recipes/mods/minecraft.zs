@@ -13,6 +13,12 @@ import mods.recipestages.Recipes;
 
 //Shaped Recipes
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+    <minecraft:clay_ball>  : [
+		[
+	  		[<contenttweaker:clay_dust>, <contenttweaker:clay_dust>],
+	   		[<contenttweaker:clay_dust>, <contenttweaker:clay_dust>]
+    	]
+	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

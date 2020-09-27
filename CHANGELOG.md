@@ -1,10 +1,11 @@
 ## CHANGELOG 
 ---
 
-[Alpha] Build 0.0.4 --> 0.0.5
+[Alpha] Build 0.0.5 --> 0.0.6
 
 ---
 ## Added Mods
+* Clumps (3.1.2)
 * Scavenge (1.12-1.8.3.2)
 * Scavenge-GameStages (1.12-1.2)
 ---
@@ -29,7 +30,10 @@
 ---
 
 ## Removed Mods
+* Farming For Blockheads (1.12.2-3.1.28)
+* LibNine (1.12.2-1.1.9)
 * Primal Tech (0.3.5)
+* Twilight Forest (1.12.2-3.11.1021-universal)
 ---
 
 ## Config Changes
@@ -53,6 +57,9 @@
 * Removed Ore from being able to be smelted in a furnace
 * All chickens now have a recipe
 * Fixed wheat seeds in the AE Grinder
+* Added clay dust
+* Created recipe for clay balls from clay dust
+* Added items to dropt for seeds and ores from the nether
 
 ---
 

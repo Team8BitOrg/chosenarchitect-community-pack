@@ -1,0 +1,12 @@
+{
+	x: -8.5d,
+	y: -4.0d,
+	text: [
+		"* Informational points go here"
+	],
+	tasks: [{
+		uid: "602aeaca",
+		type: "checkmark",
+		title: "Welcome to [Name]"
+	}]
+}

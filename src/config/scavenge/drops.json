@@ -31,11 +31,16 @@
                     },
                     {
                         "type": "require_empty_hand"
+                    },
+                    {
+                        "type": "require_stage",
+                        "name": "skyblock",
+                        "required": "true"
                     }
                 ],
                 "drops": [
                     {
-                        "name": "minecraft:clay_ball",
+                        "name": "contenttweaker:clay_dust",
                         "chance": 33
                     }
                 ]

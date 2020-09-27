@@ -11,6 +11,7 @@
 	},
 	x: -12.0d,
 	y: -8.0d,
+	can_repeat: true,
 	dependencies: [
 		"f909d8e7"
 	],
