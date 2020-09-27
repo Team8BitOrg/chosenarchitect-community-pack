@@ -39,40 +39,6 @@
                         "chance": 33
                     }
                 ]
-            },
-            {
-                "name": "Sand",
-                "type": {
-                    "type": "ore",
-                    "name": "dirt"
-                },
-                "clicktype": "right",
-                "properties": [
-                    {
-                        "type": "require_sneak"
-                    },
-                    {
-                        "type": "drop_items"
-                    },
-                    {
-                        "type": "play_sound",
-                        "name": "block.dirt.hit"
-                    },
-                    {
-                        "type": "consume_block",
-                        "chance": 1,
-                        "dropBlock": true
-                    },
-                    {
-                        "type": "require_empty_hand"
-                    }
-                ],
-                "drops": [
-                    {
-                        "name": "minecraft:sand",
-                        "chance": 15
-                    }
-                ]
             }
         ]
 }
