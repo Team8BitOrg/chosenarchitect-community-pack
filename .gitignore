@@ -26,3 +26,6 @@ src/config/sampler.ini
 #MORE STUFF
 .DS_STORE
 *.dat
+
+#CCI
+src/config/contentcreatorintegration
