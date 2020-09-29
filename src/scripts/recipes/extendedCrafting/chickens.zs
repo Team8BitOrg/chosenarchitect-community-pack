@@ -89,14 +89,14 @@ function init() {
     TableCrafting.addShaped(2, <roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:vibrantalloychicken", Gain: 1, Strength: 1}), [
         [<ore:blockVibrantAlloy>, <extendedcrafting:material:36>, <extendedcrafting:material:36>, <extendedcrafting:material:36>, <ore:blockVibrantAlloy>], 
         [<extendedcrafting:material:36>, <ore:listAllseed>, null, <ore:listAllseed>, <extendedcrafting:material:36>], 
-        [<extendedcrafting:material:36>, <roost:chicken>.withTag({Chicken: "morechickens:energeticalloychicken"})>, <ore:listAllegg>, <roost:chicken>.withTag(Chicken: "chickens:enderchicken"}), <extendedcrafting:material:36>], 
+        [<extendedcrafting:material:36>, <roost:chicken>.withTag({Chicken: "morechickens:energeticalloychicken"}), <ore:listAllegg>, <roost:chicken>.withTag({Chicken: "chickens:enderchicken"}), <extendedcrafting:material:36>], 
         [<extendedcrafting:material:36>, <minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>, <extendedcrafting:material:36>], 
         [<ore:blockVibrantAlloy>, <extendedcrafting:material:36>, <extendedcrafting:material:36>, <extendedcrafting:material:36>, <ore:blockVibrantAlloy>]
     ]);
     TableCrafting.addShaped(2, <roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:xpchicken", Gain: 1, Strength: 1}), [
         [<minecraft:experience_bottle>, <extendedcrafting:material:36>, <extendedcrafting:material:36>, <extendedcrafting:material:36>, <enderio:item_xp_transfer>], 
         [<extendedcrafting:material:36>, <ore:listAllseed>, null, <ore:listAllseed>, <extendedcrafting:material:36>], 
-        [<extendedcrafting:material:36>, <roost:chicken>.withTag(Chicken: "chickens:greenchicken"}), <ore:listAllegg>, <roost:chicken>.withTag({Chicken: "chickens:emeraldchicken"}), <extendedcrafting:material:36>], 
+        [<extendedcrafting:material:36>, <roost:chicken>.withTag({Chicken: "chickens:greenchicken"}), <ore:listAllegg>, <roost:chicken>.withTag({Chicken: "chickens:emeraldchicken"}), <extendedcrafting:material:36>], 
         [<extendedcrafting:material:36>, <minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>, <extendedcrafting:material:36>], 
         [<enderio:item_xp_transfer>, <extendedcrafting:material:36>, <extendedcrafting:material:36>, <extendedcrafting:material:36>, <minecraft:experience_bottle>]
     ]);
@@ -117,7 +117,7 @@ function init() {
     TableCrafting.addShaped(2, <roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:magicalwoodchicken", Gain: 1, Strength: 1}), [
         [<ore:blockMagicalWood>, <extendedcrafting:material:36>, <extendedcrafting:material:36>, <extendedcrafting:material:36>, <ore:blockMagicalWood>], 
         [<extendedcrafting:material:36>, <ore:listAllseed>, null, <ore:listAllseed>, <extendedcrafting:material:36>], 
-        [<extendedcrafting:material:36>, <roost:chicken>.withTag(Chicken: "chickens:logchicken"}), <ore:listAllegg>, <roost:chicken>.withTag({Chicken: "morechickens:xpchicken"}), <extendedcrafting:material:36>], 
+        [<extendedcrafting:material:36>, <roost:chicken>.withTag({Chicken: "chickens:logchicken"}), <ore:listAllegg>, <roost:chicken>.withTag({Chicken: "morechickens:xpchicken"}), <extendedcrafting:material:36>], 
         [<extendedcrafting:material:36>, <minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>, <extendedcrafting:material:36>], 
         [<ore:blockMagicalWood>, <extendedcrafting:material:36>, <extendedcrafting:material:36>, <extendedcrafting:material:36>, <ore:blockMagicalWood>]
     ]);
