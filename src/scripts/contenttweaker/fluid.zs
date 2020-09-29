@@ -20,3 +20,8 @@ import mods.contenttweaker.VanillaFactory;
 //Grout
 VanillaFactory.createFluid("liquid_grout", Color.fromHex("434147")).register();
 VanillaFactory.createFluid("molten_sand", Color.fromHex("e8eebb")).register();
+
+//Metal Fluids
+VanillaFactory.createFluid("liquid_titanium", Color.fromHex("D379BC")).register();
+VanillaFactory.createFluid("liquid_mithril", Color.fromHex("5E92B6")).register();
+VanillaFactory.createFluid("liquid_osmium", Color.fromHex("B7C3C8")).register();

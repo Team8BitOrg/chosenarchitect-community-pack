@@ -1,34 +1,29 @@
 {
-	title: "Cactus Green Chicken",
+	title: "Beep Boop?!",
 	icon: {
 		id: "roost:chicken",
 		tag: {
 			Growth: 1,
-			Chicken: "chickens:greenchicken",
+			Chicken: "morechickens:boopbeepchick",
 			Gain: 1,
 			Strength: 1
 		}
 	},
-	x: -12.5d,
-	y: -9.0d,
-	can_repeat: true,
-	dependencies: [
-		"f909d8e7"
-	],
-	hide: true,
+	x: -14.5d,
+	y: -8.0d,
 	tasks: [{
-		uid: "124c22de",
+		uid: "36accd10",
 		type: "emc",
-		value: 2048L
+		value: 4096L
 	}],
 	rewards: [{
-		uid: "11933727",
+		uid: "fe554aa1",
 		type: "item",
 		item: {
 			id: "roost:chicken",
 			tag: {
 				Growth: 1,
-				Chicken: "chickens:greenchicken",
+				Chicken: "morechickens:boopbeepchick",
 				Gain: 1,
 				Strength: 1
 			}

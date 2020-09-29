@@ -9,6 +9,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+import mods.extendedcrafting.EnderCrafting;
+
 //Shaped Recipes
 static shapedRecipes as IIngredient[][][][IItemStack] = {
     <minecraft:sapling> : [
@@ -37,7 +39,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 };
 
 //Removals
-static removeRecipes as IItemStack[] = [  
+static removeRecipes as IItemStack[] = [
+	<mekanism:basicblock:8>
 ];
 
 function init() {
@@ -52,5 +55,11 @@ function init() {
     recipeHelper.processNamed(namedShapelessRecipes);
 
 	recipeHelper.removeRecipes(removeRecipes);
+
+	EnderCrafting.addShaped(<mekanism:basicblock:8>, [
+		[<thermalfoundation:material:160>, <botania:elfglass>, <mekanism:ingot:1>],
+		[<botania:elfglass>, <actuallyadditions:block_crystal_empowered:5>, <botania:elfglass>],
+		[<mekanism:ingot:1>, <botania:elfglass>, <thermalfoundation:material:160>]
+	]);
 }
 

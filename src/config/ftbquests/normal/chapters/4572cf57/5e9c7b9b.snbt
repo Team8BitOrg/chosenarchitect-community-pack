@@ -10,7 +10,7 @@
 		}
 	},
 	x: -13.5d,
-	y: -8.0d,
+	y: -10.0d,
 	can_repeat: true,
 	dependencies: [
 		"f909d8e7"

@@ -9,8 +9,8 @@
 			Strength: 1
 		}
 	},
-	x: -7.5d,
-	y: -6.5d,
+	x: -16.5d,
+	y: -7.0d,
 	can_repeat: true,
 	dependencies: [
 		"f909d8e7"
