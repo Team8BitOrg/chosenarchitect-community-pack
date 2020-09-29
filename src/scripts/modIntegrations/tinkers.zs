@@ -26,9 +26,9 @@ function init() {
     tinkers.addCastingTable(<thermalfoundation:material:136>, <tconstruct:cast_custom>, <liquid:liquid_mithril>, 144, false, 600);
     tinkers.addCastingBasin(<thermalfoundation:storage:8>, null, <liquid:liquid_mithril>, 1296, false, 600);
     tinkers.addCastingTable(<mekanism:ingot:1>, <tconstruct:cast_custom>, <liquid:liquid_osmium>, 144, false, 600);
-    tinkers.addCastingBasin(<mekanism:basicblock>, null, <liquid:liquid_osmium>, 1296, null, 600);
+    tinkers.addCastingBasin(<mekanism:basicblock>, null, <liquid:liquid_osmium>, 1296, false, 600);
     tinkers.addCastingTable(<nuclearcraft:ingot:6>, <tconstruct:cast_custom>, <liquid:lithium>, 144, false, 600);
-    tinkers.addCastingBasin(<nuclearcraft:ingot_block:6>, null, <liquid:lithium>, 1296, null, 600);
+    tinkers.addCastingBasin(<nuclearcraft:ingot_block:6>, null, <liquid:lithium>, 1296, false, 600);
 
     #### Alloying ####
     //Liquid Grout
