@@ -182,7 +182,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[<actuallyadditions:block_crystal:1>, <roost:chicken>.withTag({Chicken: "morechickens:blackquartzchicken"}), <actuallyadditions:block_crystal:1>]
 			]
 	],
-    <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:redstonechicken", Gain: 1, Strength: 1}) : [
+    <roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:restoniacrystalchicken", Gain: 1, Strength: 1}) : [
 			[
 	  			[<actuallyadditions:block_crystal>, <roost:chicken>.withTag({Chicken: "chickens:redstonechicken"}), <actuallyadditions:block_crystal>],
 	   			[<minecraft:wheat_seeds>, <minecraft:egg>, <minecraft:wheat_seeds>],
