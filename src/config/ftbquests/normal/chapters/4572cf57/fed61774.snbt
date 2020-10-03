@@ -10,6 +10,7 @@
 	y: -9.0d,
 	can_repeat: true,
 	dependencies: [
+		"bb97642f",
 		"b9526054"
 	],
 	hide: true,

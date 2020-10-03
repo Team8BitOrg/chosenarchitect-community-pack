@@ -1,0 +1,18 @@
+{
+	x: -7.0d,
+	y: -3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"7baafd47"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d47c94ad",
+		type: "item",
+		title: "Getting Wood",
+		items: [{
+			item: "minecraft:log"
+		}],
+		count: 7L
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	title: "Proper Smeltery",
+	x: -2.5d,
+	y: 0.0d,
+	text: [
+		"* Now you can finally smelt more than 3 items at the same time"
+	],
+	dependencies: [
+		"6c2dde0b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bb797b5f",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "b6269d51",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	},
+	{
+		uid: "caf789a0",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting 1 1"
+		}]
+	},
+	{
+		uid: "10d8419b",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}]
+	},
+	{
+		uid: "7e255d2a",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	}]
+}

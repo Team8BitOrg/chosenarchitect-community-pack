@@ -12,6 +12,11 @@
 	x: -14.5d,
 	y: -8.0d,
 	can_repeat: true,
+	dependencies: [
+		"bb97642f",
+		"b9526054"
+	],
+	hide: true,
 	tasks: [{
 		uid: "36accd10",
 		type: "emc",
