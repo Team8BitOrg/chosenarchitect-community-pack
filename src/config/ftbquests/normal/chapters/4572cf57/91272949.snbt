@@ -13,6 +13,7 @@
 	y: -7.0d,
 	can_repeat: true,
 	dependencies: [
+		"bb97642f",
 		"f909d8e7"
 	],
 	hide: true,

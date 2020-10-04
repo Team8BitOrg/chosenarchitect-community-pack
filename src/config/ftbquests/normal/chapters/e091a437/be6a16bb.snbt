@@ -1,0 +1,20 @@
+{
+	title: "Getting Clay",
+	x: -4.0d,
+	y: -1.5d,
+	text: [
+		"* To get clay early on in this pack you will need to sneak and right click sand blocks."
+	],
+	dependencies: [
+		"71f79df7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "237dd780",
+		type: "item",
+		items: [{
+			item: "contenttweaker:clay_dust"
+		}],
+		count: 16L
+	}]
+}

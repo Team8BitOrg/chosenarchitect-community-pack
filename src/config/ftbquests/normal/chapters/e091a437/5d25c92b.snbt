@@ -1,0 +1,19 @@
+{
+	title: "Visit the Nether",
+	x: -4.0d,
+	y: 1.5d,
+	text: [
+		"* Early resource gathering is done in the Nether.",
+		"",
+		"* Beware of the mobs."
+	],
+	dependencies: [
+		"6c2dde0b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "95f54b30",
+		type: "dimension",
+		dim: -1
+	}]
+}

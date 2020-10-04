@@ -1,0 +1,39 @@
+{
+	title: "Getting Your First Mob Farm",
+	x: -5.5d,
+	y: -1.5d,
+	text: [
+		"* Kill a Zombie and Skeleton",
+		"",
+		"* Some of their drops can be used to generate EMC."
+	],
+	dependencies: [
+		"31ba5174"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b45fe15c",
+		type: "kill",
+		title: "Kill: 1x Zombie",
+		icon: {
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:zombie"
+			}
+		},
+		entity: "minecraft:zombie",
+		value: 1L
+	},
+	{
+		uid: "d782eb91",
+		type: "kill",
+		icon: {
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:skeleton"
+			}
+		},
+		entity: "minecraft:skeleton",
+		value: 1L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -2.5d,
+	y: 2.5d,
+	text: [
+		"* Use this to silk touch your podzol to move it to a better place"
+	],
+	dependencies: [
+		"5d25c92b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cf531e49",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -7460483490677750734L,
+					AS_Amulet_HolderMost: -7207429157806191605L
+				}
+			},
+			id: "extrautils2:trowel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

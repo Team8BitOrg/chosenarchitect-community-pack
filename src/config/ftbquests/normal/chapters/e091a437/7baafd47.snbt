@@ -1,8 +1,14 @@
 {
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:writable_book"
+	},
 	x: -8.5d,
 	y: -4.0d,
 	text: [
-		"* Informational points go here"
+		"* Quests that are marked with a book and quill are informational quests."
 	],
 	tasks: [{
 		uid: "602aeaca",

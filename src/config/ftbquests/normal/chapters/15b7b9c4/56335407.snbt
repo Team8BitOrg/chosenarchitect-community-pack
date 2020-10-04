@@ -2,6 +2,7 @@
 	x: 2.5d,
 	y: -3.0d,
 	dependencies: [
+		"bb97642f",
 		"b9526054"
 	],
 	hide: true,
