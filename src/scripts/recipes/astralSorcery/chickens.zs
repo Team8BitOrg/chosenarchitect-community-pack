@@ -27,7 +27,7 @@ function init() {
         <thermalfoundation:storage:7>, <minecraft:egg>, <thermalfoundation:storage:7>,
         <thermalfoundation:storage:7>, <roost:chicken>.withTag({Chicken: "morechickens:enderiumchicken",}), <thermalfoundation:storage:7>
     ]);
-    Altar.addDiscoveryAltarRecipe("capack:shaped/internal/altar/knightslimechicken", <roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:stoneburntchicken", Gain: 1, Strength: 1}), 750, 600,
+    Altar.addDiscoveryAltarRecipe("capack:shaped/internal/altar/knightslimechicken", <roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:knightslimechicken", Gain: 1, Strength: 1}), 750, 600,
     [
         <tconstruct:metal:3>, <roost:chicken>.withTag({Chicken: "morechickens:pigironchicken",}), <tconstruct:metal:3>,
         <tconstruct:metal:3>, <minecraft:egg>, <tconstruct:metal:3>,
@@ -39,7 +39,7 @@ function init() {
         <extrautils2:ingredients:3>, <minecraft:egg>, <extrautils2:ingredients:3>,
         <extrautils2:ingredients:3>, <roost:chicken>.withTag({Chicken: "chickens:bluechicken",}), <extrautils2:ingredients:3>
     ]);
-    Altar.addDiscoveryAltarRecipe("capack:shaped/internal/altar/stoneburntchicken", <roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:knightslimechicken", Gain: 1, Strength: 1}), 750, 600,
+    Altar.addDiscoveryAltarRecipe("capack:shaped/internal/altar/stoneburntchicken", <roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:stoneburntchicken", Gain: 1, Strength: 1}), 750, 600,
     [
         <extrautils2:decorativesolid:3>, <roost:chicken>.withTag({Chicken: "morechickens:redstonecrystalchicken",}), <extrautils2:decorativesolid:3>,
         <extrautils2:decorativesolid:3>, <minecraft:egg>, <extrautils2:decorativesolid:3>,

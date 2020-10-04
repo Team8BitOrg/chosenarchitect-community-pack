@@ -43,7 +43,8 @@ function initRecipes() {
 }
 
 function initIntegration() {
-	//scripts.modIntegrations.mods.scriptname.init();
+	//scripts.modIntegrations.scriptname.init();
+	scripts.modIntegrations.actuallyadditions.init();
 	scripts.modIntegrations.appliedenergistics.init();
 	scripts.modIntegrations.botania.init();
 	scripts.modIntegrations.tinkers.init();
