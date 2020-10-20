@@ -10,6 +10,15 @@
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
+import mods.contenttweaker.Block;
 
 var clayDust as Item = VanillaFactory.createItem("clay_dust");
 clayDust.register();
+
+var artificialBedrock as Block = VanillaFactory.createBlock("artificial_bedrock", <blockmaterial:rock>);
+artificialBedrock.setBlockHardness(50);
+artificialBedrock.setBlockResistance(1200.0);
+artificialBedrock.setToolClass("pickaxe");
+artificialBedrock.setToolLevel(3);
+artificialBedrock.setBlockSoundType(<soundtype:stone>);
+artificialBedrock.register();

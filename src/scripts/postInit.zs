@@ -35,6 +35,7 @@ function initRecipes() {
 	#### Normal Recipes #####
 	scripts.recipes.mods.ceramics.init();
 	scripts.recipes.mods.chickens.init();
+	scripts.recipes.mods.contenttweaker.init();
 	scripts.recipes.mods.cyclic.init();
 	scripts.recipes.mods.minecraft.init();
 	scripts.recipes.mods.misc.init();
@@ -53,7 +54,6 @@ function initIntegration() {
 function initItemModifiers() {
 	//scripts.itemModifiers.scriptname.init();
 	scripts.itemModifiers.burnTime.init();
-	scripts.itemModifiers.dropt.init();
 	scripts.itemModifiers.durability.init();
 	scripts.itemModifiers.hardness.init();
 	scripts.itemModifiers.hide.init();

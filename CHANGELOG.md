@@ -5,10 +5,12 @@
 
 ---
 ## Added Mods
+* ChatFlow (1.4-7)
 * Clumps (3.1.2)
 * Hunting Dimension (1.12.2-1.0.42)
 * Scavenge (1.12-1.8.3.2)
 * Scavenge-GameStages (1.12-1.2)
+* Tesslocator (1.1.0.15)
 * Thermal Cultivations (1.12.2-0.3.6.1)
 ---
 
