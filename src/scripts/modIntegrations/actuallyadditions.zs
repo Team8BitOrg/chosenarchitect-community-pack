@@ -13,4 +13,7 @@ function init() {
     actuallyadditions.addCrusher(<minecraft:gravel>, <minecraft:cobblestone>);
     /* Remove Cobble to Sand */
     actuallyadditions.removeCrusher(<minecraft:sand>);
+
+    /* Swamp Talisman */
+    actuallyadditions.addEmpowerer(<thebetweenlands:swamp_talisman>, <minecraft:sapling>, <thebetweenlands:swamp_talisman:1>, <thebetweenlands:swamp_talisman:2>, <thebetweenlands:swamp_talisman:3>, <thebetweenlands:swamp_talisman:4>, 100000, 1600);
 }

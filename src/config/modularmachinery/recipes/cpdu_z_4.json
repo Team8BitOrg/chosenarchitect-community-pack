@@ -1,30 +1,30 @@
 {
-    "machine": "alloy_furnace",
-    "registryName": "alloy_furnace_diamond",
-    "recipeTime": 5,
+    "machine": "druid_circle",
+    "registryName": "talisman_4",
+    "recipeTime": 100,
     "requirements": [
         {
             "type": "modularmachinery:energy",
             "io-type": "input",
-            "energyPerTick": 100
+            "energyPerTick": 250
         },
         {
             "type": "modularmachinery:item",
             "io-type": "output",
-            "item": "minecraft:diamond",
+            "item": "thebetweenlands:swamp_talisman@4",
             "amount": 1
         },
         {
             "type": "modularmachinery:item",
             "io-type": "input",
-            "item": "minecraft:coal",
-            "amount": 32
+            "item": "botania:storage@4",
+            "amount": 1
         },
         {
             "type": "modularmachinery:item",
             "io-type": "input",
-            "item": "minecraft:tnt",
-            "amount": 8
+            "item": "tconstruct:materials@18",
+            "amount": 1
         }
     ]
 }

@@ -13,6 +13,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 import mods.actuallyadditions.Crusher;
+import mods.actuallyadditions.Empowerer;
 
 #Add anymore imports needed here
 
@@ -33,6 +34,21 @@ zenClass ActuallyAdditions {
     //Remove Recipe
     function removeCrusher(output as IItemStack){
         Crusher.removeRecipe(output);
+    }
+
+    /* Empowerer */
+    //Add Recipe
+    function addEmpowerer(output as IItemStack, center as IItemStack, mod1 as IItemStack, mod2 as IItemStack, mod3 as IItemStack, mod4 as IItemStack, energy as int, time as int) {
+        Empowerer.addRecipe(output, center, mod1, mod2, mod3, mod4, energy, time);
+    }
+
+    function addEmpowerer(output as IItemStack, center as IItemStack, mod1 as IItemStack, mod2 as IItemStack, mod3 as IItemStack, mod4 as IItemStack, energy as int, time as int, particle as float[]) {
+        Empowerer.addRecipe(output, center, mod1, mod2, mod3, mod4, energy, time, particle);
+    }
+
+    //Remove Recipe
+    function removeEmpowerer(output as IItemStack) {
+        Empowerer.removeRecipe(output);
     }
 
 }

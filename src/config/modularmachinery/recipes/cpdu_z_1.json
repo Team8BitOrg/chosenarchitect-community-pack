@@ -1,0 +1,30 @@
+{
+    "machine": "druid_circle",
+    "registryName": "talisman_1",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 250
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thebetweenlands:swamp_talisman@1",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:bone_block",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "tconstruct:materials@18",
+            "amount": 1
+        }
+    ]
+}
