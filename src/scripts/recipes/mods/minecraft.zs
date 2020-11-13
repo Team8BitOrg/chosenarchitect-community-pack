@@ -18,8 +18,17 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  		[<contenttweaker:clay_dust>, <contenttweaker:clay_dust>],
 	   		[<contenttweaker:clay_dust>, <contenttweaker:clay_dust>]
     	]
-	]
+	],
+    <minecraft:elytra> : [
+        [
+            [<minecraft:end_stone>, <minecraft:purpur_block>, <minecraft:end_stone>],
+            [<minecraft:purpur_block>, <astralsorcery:itemcape>, <minecraft:purpur_block>],
+            [<minecraft:end_stone>, <minecraft:purpur_block>, <minecraft:end_stone>]
+        ]
+    ]
 };
+
+
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 };

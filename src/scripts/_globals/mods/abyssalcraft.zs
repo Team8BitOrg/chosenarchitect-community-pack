@@ -13,10 +13,12 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 import mods.abyssalcraft.CreationRitual;
+import mods.abyssalcraft.InfusionRitual;
 
 #Add anymore imports needed here
 
 zenClass Abyssalcraft {
     zenConstructor() {
+
     }
 }

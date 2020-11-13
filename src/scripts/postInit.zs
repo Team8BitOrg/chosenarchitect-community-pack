@@ -35,10 +35,13 @@ function initRecipes() {
 	#### Normal Recipes #####
 	scripts.recipes.mods.abyssalcraft.init();
 	scripts.recipes.mods.actuallyadditions.init();
+	scripts.recipes.mods.appliedenergistics.init();
 	scripts.recipes.mods.ceramics.init();
 	scripts.recipes.mods.chickens.init();
+	scripts.recipes.mods.compactmachines.init();
 	scripts.recipes.mods.contenttweaker.init();
 	scripts.recipes.mods.cyclic.init();
+	scripts.recipes.mods.extrautilities.init();
 	scripts.recipes.mods.huntingdim.init();
 	scripts.recipes.mods.minecraft.init();
 	scripts.recipes.mods.misc.init();
@@ -52,7 +55,9 @@ function initIntegration() {
 	scripts.modIntegrations.abyssalcraft.init();
 	scripts.modIntegrations.actuallyadditions.init();
 	scripts.modIntegrations.appliedenergistics.init();
+	scripts.modIntegrations.astralsorcery.init();
 	scripts.modIntegrations.botania.init();
+	scripts.modIntegrations.extendedcrafting.init();
 	scripts.modIntegrations.modularmachinery.druid_circle.init();
     scripts.modIntegrations.modularmachinery.statue_maker.init();
 	scripts.modIntegrations.tinkers.init();

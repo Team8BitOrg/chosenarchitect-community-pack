@@ -21,6 +21,15 @@ function init() {
     game.setLocalization("ac.ritual.huntingDim", "Hunting Dimension Portal Frame");
     game.setLocalization("ac.ritual.huntingDim.desc", "This ritual will provide you with a piece of the portal frame for the Hunting Dimension. Perform repeatedly until you have all necessary pieces.");
 
+    /* Remove Statue Creation Rituals */
+    InfusionRitual.removeRitual(<abyssalcraft:statue>);
+    InfusionRitual.removeRitual(<abyssalcraft:statue:1>);
+    InfusionRitual.removeRitual(<abyssalcraft:statue:2>);
+    InfusionRitual.removeRitual(<abyssalcraft:statue:3>);
+    InfusionRitual.removeRitual(<abyssalcraft:statue:4>);
+    InfusionRitual.removeRitual(<abyssalcraft:statue:5>);
+    InfusionRitual.removeRitual(<abyssalcraft:statue:6>);
+
 
 }
 
