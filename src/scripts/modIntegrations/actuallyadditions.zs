@@ -16,4 +16,7 @@ function init() {
 
     /* Swamp Talisman */
     actuallyadditions.addEmpowerer(<thebetweenlands:swamp_talisman>, <minecraft:sapling>, <thebetweenlands:swamp_talisman:1>, <thebetweenlands:swamp_talisman:2>, <thebetweenlands:swamp_talisman:3>, <thebetweenlands:swamp_talisman:4>, 100000, 1600);
+
+    /* Coralium Gem */
+    actuallyadditions.addReconstructor(<abyssalcraft:coralium>, <abyssalcraft:corflesh>, 150000);
 }

@@ -1,6 +1,7 @@
 {
   "blockdrops": "1.4.0",
   "bnbgamingcore": "0.12.0",
+  "contentcreatorintegration": "1.4.3",
   "draconicevolution": "2.3.27",
   "projecte": "1.12.2-PE1.4.1",
   "contenttweaker": "1.12.2-4.9.1",

@@ -43,4 +43,7 @@ function init() {
     botania.addRuneAltar(<roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:enoricrystalchicken", Gain: 1, Strength: 1}), [<harvestcraft:onionseeditem>, <harvestcraft:onionseeditem>, <minecraft:egg>, <roost:chicken>.withTag({Chicken: "morechickens:voidcrystalchicken"}), <roost:chicken>.withTag({Chicken: "chickens:ironchicken"}), <actuallyadditions:block_crystal:5>, <actuallyadditions:block_crystal:5>, <actuallyadditions:block_crystal:5>, <actuallyadditions:block_crystal:5>], 10000);
     botania.addRuneAltar(<roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:lumiumchicken", Gain: 1, Strength: 1}), [<harvestcraft:cornseeditem>, <harvestcraft:cornseeditem>, <minecraft:egg>, <roost:chicken>.withTag({Chicken: "chickens:glowstonechicken"}), <roost:chicken>.withTag({Chicken: "morechickens:tinchicken"}), <thermalfoundation:storage_alloy:6>, <thermalfoundation:storage_alloy:6>, <thermalfoundation:storage_alloy:6>, <thermalfoundation:storage_alloy:6>], 10000);
     botania.addRuneAltar(<roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:redstonealloychicken", Gain: 1, Strength: 1}), [<harvestcraft:cranberryseeditem>, <harvestcraft:cranberryseeditem>, <minecraft:egg>, <roost:chicken>.withTag({Chicken: "morechickens:siliconchicken"}), <roost:chicken>.withTag({Chicken: "chickens:redstonechicken"}), <enderio:block_alloy:3>, <enderio:block_alloy:3>, <enderio:block_alloy:3>, <enderio:block_alloy:3>], 10000);
+
+    //Shoggoth Biomass
+    botania.addAlchemy(<abyssalcraft:shoggothbiomass>, <ore:blockSlime>, 100000);
 }

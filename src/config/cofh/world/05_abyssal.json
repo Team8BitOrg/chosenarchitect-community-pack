@@ -1,0 +1,43 @@
+{
+	"priority": 1000000000000,
+	"populate": {
+        "abyssalnite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "abyssalcraft:abyore",
+				"material": "minecraft:stone",
+				"cluster-size": 10
+			},
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 16,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					28885
+				]
+			}
+        },
+        "nitre": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "abyssalcraft:nitreore",
+				"material": "minecraft:stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 8,
+			"min-height": 0,
+			"max-height": 40,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					28885
+				]
+			}
+        }
+    }
+}

@@ -14,6 +14,8 @@ import crafttweaker.liquid.ILiquidStack;
 
 import mods.actuallyadditions.Crusher;
 import mods.actuallyadditions.Empowerer;
+import mods.actuallyadditions.AtomicReconstructor;
+
 
 #Add anymore imports needed here
 
@@ -49,6 +51,12 @@ zenClass ActuallyAdditions {
     //Remove Recipe
     function removeEmpowerer(output as IItemStack) {
         Empowerer.removeRecipe(output);
+    }
+
+    /* Atomic Reconstructor */
+    //Add Recipe
+    function addReconstructor(output as IItemStack, input as IItemStack, energyUsed as int) {
+        AtomicReconstructor.addRecipe(output, input, energyUsed);
     }
 
 }

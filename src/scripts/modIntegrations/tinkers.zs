@@ -21,8 +21,6 @@ function init() {
     tinkers.addCastingBasin(<tconstruct:smeltery_io>, <ceramics:clay_hard>, <liquid:liquid_grout>, 288, true, 200);
     tinkers.addCastingBasin(<tconstruct:casting:1>, <tcomplement:porcelain_casting:1>, <liquid:liquid_grout>, 288, true, 200);
     //Cyclic Metal Items
-    tinkers.addCastingTable(<libvulpes:productingot:7>, <tconstruct:cast_custom>, <liquid:liquid_titanium>, 144, false, 200);
-    tinkers.addCastingBasin(<libvulpes:metal0:7>, null, <liquid:liquid_titanium>, 1296, false, 600);
     tinkers.addCastingTable(<thermalfoundation:material:136>, <tconstruct:cast_custom>, <liquid:liquid_mithril>, 144, false, 200);
     tinkers.addCastingBasin(<thermalfoundation:storage:8>, null, <liquid:liquid_mithril>, 1296, false, 600);
     tinkers.addCastingTable(<mekanism:ingot:1>, <tconstruct:cast_custom>, <liquid:liquid_osmium>, 144, false, 200);
