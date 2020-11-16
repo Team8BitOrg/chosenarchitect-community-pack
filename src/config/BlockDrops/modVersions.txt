@@ -215,6 +215,7 @@
   "integrationforegoing": "1.12.2-1.10",
   "enderio": "5.2.61",
   "quark": "r1.6-179",
+  "karatgarden": "0.1.4",
   "fastbench": "1.7.3",
   "fluxnetworks": "4.0.14",
   "storagedrawers": "5.2.2",

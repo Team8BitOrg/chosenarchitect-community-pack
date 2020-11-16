@@ -41,6 +41,7 @@ function initRecipes() {
 	scripts.recipes.mods.compactmachines.init();
 	scripts.recipes.mods.contenttweaker.init();
 	scripts.recipes.mods.cyclic.init();
+	scripts.recipes.mods.deepmoblearning.init();
 	scripts.recipes.mods.extrautilities.init();
 	scripts.recipes.mods.huntingdim.init();
 	scripts.recipes.mods.minecraft.init();
