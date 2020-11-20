@@ -27,8 +27,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
     <modularmachinery:blockcontroller> : [
 			[
-	  			[<minecraft:gold_ingot>, <opencomputers:component:1>, <minecraft:diamond>],
-                [<opencomputers:card:11>, <modularmachinery:blockcasing>, <opencomputers:component:14>.withTag({})],
+	  			[<minecraft:gold_ingot>, <ore:oc:cpu2>, <minecraft:diamond>],
+                [<opencomputers:card:11>, <modularmachinery:blockcasing>, <opencomputers:component:14>],
                 [<minecraft:diamond>, <minecraft:redstone_block>, <minecraft:gold_ingot>]
 			]
 	],
@@ -110,6 +110,12 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
     /*<mod:itemname:meta> : [
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 	]*/
+    <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:druid_circle"}) : [
+			[<minecraft:paper>, <ore:dyeBlue>, <tconstruct:materials:18>]
+	],
+    <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:statue_maker"}) : [
+			[<minecraft:paper>, <ore:dyeBlue>, <abyssalcraft:shadowgem>]
+	]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {

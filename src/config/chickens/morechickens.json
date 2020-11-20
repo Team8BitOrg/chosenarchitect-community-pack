@@ -222,8 +222,8 @@
     "Name": "elementiumchicken",
     "Is Enabled": true,
     "Lay Coefficient": 1.0,
-    "Lay Item": "botania:manaresource:19",
-    "Drop Item": "botania:manaresource:19",
+    "Lay Item": "botania:manaresource:7",
+    "Drop Item": "botania:manaresource:7",
     "Spawn Type": "NONE",
     "Parent 1": "",
     "Parent 2": ""

@@ -1,5 +1,5 @@
 /*
-    This script handles the recipes for Deep Mob Learning
+    This script handles the recipes for RFTools
 
     Note: These scripts are created and for the usage in modpacks curated by Team 8Bit. 
     You can use these scripts for reference and for learning but not for copying and 
@@ -18,21 +18,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 			]
 	]*/
-    <deepmoblearning:machine_casing> : [
+    <rftools:machine_frame> : [
 			[
-	  			[<deepmoblearning:soot_covered_plate>, <ore:ingotIron>, <deepmoblearning:soot_covered_plate>],
-	   			[<ore:ingotIron>, <appliedenergistics2:material:24>, <ore:ingotIron>],
-	  			[<deepmoblearning:soot_covered_plate>, <ore:ingotIron>, <deepmoblearning:soot_covered_plate>]
-			]
-	],
-    <deepmoblearning:deep_learner> : [
-			[
-	  			[<deepmoblearning:soot_covered_plate>, <appliedenergistics2:material:22>, <deepmoblearning:soot_covered_plate>],
-	   			[<minecraft:repeater>, <ore:paneGlass>, <minecraft:repeater>],
-	  			[<deepmoblearning:soot_covered_plate>, <deepmoblearning:soot_covered_redstone>, <deepmoblearning:soot_covered_plate>]
+	  			[<enderio:item_alloy_ingot:9>, <ore:ingotGold>, <enderio:item_alloy_ingot:9>],
+	   			[<ore:ingotGold>, <mekanism:reinforcedalloy>, <ore:ingotGold>],
+	  			[<enderio:item_alloy_ingot:9>, <ore:ingotGold>, <enderio:item_alloy_ingot:9>]
 			]
 	]
-
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -88,8 +80,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 //Removals
 static removeRecipes as IItemStack[] = [
     //<modid:itemname:meta>
-    <deepmoblearning:machine_casing>,
-    <deepmoblearning:deep_learner>
+    <rftools:machine_frame>  
 ];
 
 function init() {

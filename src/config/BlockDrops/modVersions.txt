@@ -113,6 +113,7 @@
   "appleskin": "1.0.14",
   "integratedtunnelscompat": "1.0.0",
   "enderioconduitsopencomputers": "5.2.61",
+  "clarity": "1.1",
   "cosmeticarmorreworked": "1.12.2-v5a",
   "pdp": "1.12.2-1.2.4",
   "base": "3.13.0",

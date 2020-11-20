@@ -34,7 +34,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 
 //Removals
 static removeRecipes as IItemStack[] = [
-    <projecte:item.pe_philosophers_stone>
+    <projecte:item.pe_philosophers_stone>,
+    <projecte:item.pe_repair_talisman>
 ];
 
 function init() {
@@ -55,9 +56,9 @@ function init() {
     TableCrafting.addShaped(3, <projecte:item.pe_philosophers_stone>.withTag({}), [
         [<ore:treeLeaves>, <ore:gemRedstone>, <ore:ingotAstralStarmetal>, <ore:ingotAstralStarmetal>, <ore:ingotAstralStarmetal>, <ore:gemRedstone>, <ore:treeLeaves>], 
         [<ore:gemRedstone>, <appliedenergistics2:material:47>, <enderio:item_capacitor_totemic>, <ore:gaiaIngot>, <enderio:item_capacitor_totemic>, <extendedcrafting:singularity_ultimate>, <ore:gemRedstone>], 
-        [<ore:ingotAstralStarmetal>, <ore:ingotHECf251Oxide>, <ore:ingotFiery>, <ore:ingotSteeleaf>, <ore:ingotFiery>, <ore:ingotHECf251Oxide>, <ore:ingotAstralStarmetal>], 
-        [<ore:ingotAstralStarmetal>, <ore:gaiaIngot>, <ore:ingotSteeleaf>, <botania:gaiahead>, <ore:ingotSteeleaf>, <ore:gaiaIngot>, <ore:ingotAstralStarmetal>], 
-        [<ore:ingotAstralStarmetal>, <ore:ingotHECf251Oxide>, <ore:ingotFiery>, <ore:ingotSteeleaf>, <ore:ingotFiery>, <ore:ingotHECf251Oxide>, <ore:ingotAstralStarmetal>], 
+        [<ore:ingotAstralStarmetal>, <ore:ingotHECf251Oxide>, <abyssalcraft:dreadiumingot>, <abyssalcraft:cingot>, <abyssalcraft:dreadiumingot>, <ore:ingotHECf251Oxide>, <ore:ingotAstralStarmetal>], 
+        [<ore:ingotAstralStarmetal>, <ore:gaiaIngot>, <abyssalcraft:cingot>, <botania:gaiahead>, <abyssalcraft:cingot>, <ore:gaiaIngot>, <ore:ingotAstralStarmetal>], 
+        [<ore:ingotAstralStarmetal>, <ore:ingotHECf251Oxide>, <abyssalcraft:dreadiumingot>, <abyssalcraft:cingot>, <abyssalcraft:dreadiumingot>, <ore:ingotHECf251Oxide>, <ore:ingotAstralStarmetal>], 
         [<ore:gemRedstone>, <extendedcrafting:singularity_ultimate>, <enderio:item_capacitor_totemic>, <ore:gaiaIngot>, <enderio:item_capacitor_totemic>, <appliedenergistics2:material:47>, <ore:gemRedstone>], 
         [<ore:treeLeaves>, <ore:gemRedstone>, <ore:ingotAstralStarmetal>, <ore:ingotAstralStarmetal>, <ore:ingotAstralStarmetal>, <ore:gemRedstone>, <ore:treeLeaves>]
     ]);

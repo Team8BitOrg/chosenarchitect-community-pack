@@ -44,10 +44,12 @@ function initRecipes() {
 	scripts.recipes.mods.deepmoblearning.init();
 	scripts.recipes.mods.extrautilities.init();
 	scripts.recipes.mods.huntingdim.init();
+	scripts.recipes.mods.industrialforegoing.init();
 	scripts.recipes.mods.minecraft.init();
 	scripts.recipes.mods.misc.init();
 	scripts.recipes.mods.modularmachinery.init();
 	scripts.recipes.mods.projecte.init();
+	scripts.recipes.mods.rftools.init();
 	scripts.recipes.mods.tinkers.init();
 }
 

@@ -13,4 +13,9 @@ function init() {
     /* Pitstone to Endstone */
     astralsorcery.addStarlightInfusion(<thebetweenlands:pitstone>, <minecraft:end_stone>, false, 0.7, 200);
 
+    /* Remove Endstone via Transmutation */
+    astralsorcery.removeStarlightTransmutation(<minecraft:end_stone>, false);
+
+    /* Convert Cyclic Nether Iron Ore to Starmetal Ore */
+    astralsorcery.addStarlightTransmutation(<cyclicmagic:nether_iron_ore>, <astralsorcery:blockcustomore:1>, 10);
 }

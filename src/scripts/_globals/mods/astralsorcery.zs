@@ -13,6 +13,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import mods.astralsorcery.Altar;
 import mods.astralsorcery.StarlightInfusion;
+import mods.astralsorcery.LightTransmutation;
 
 #Add anymore imports needed here
 
@@ -42,6 +43,14 @@ zenClass AstralSorcery {
 
     function addStarlightInfusion(input as IItemStack, output as IItemStack, consumeMultiple as bool, consumptionChance as float, craftingTickTime as int){
         StarlightInfusion.addInfusion(input, output, consumeMultiple, consumptionChance, craftingTickTime);
+    }
+
+    function removeStarlightTransmutation(output as IItemStack, matchMeta as bool){
+        LightTransmutation.removeTransmutation(output, matchMeta);
+    }
+
+    function addStarlightTransmutation(input as IItemStack, output as IItemStack, light as double){
+        LightTransmutation.addTransmutation(input, output, light);
     }
 
 }
