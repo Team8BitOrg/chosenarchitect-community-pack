@@ -50,7 +50,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 //Removals
 static removeRecipes as IItemStack[] = [
     <minecraft:bucket>,
-    <minecraft:hay_block>
+    <minecraft:hay_block>,
+    <minecraft:end_rod>
 ];
 
 function init() {

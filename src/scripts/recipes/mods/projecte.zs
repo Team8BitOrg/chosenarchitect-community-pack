@@ -35,7 +35,23 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 //Removals
 static removeRecipes as IItemStack[] = [
     <projecte:item.pe_philosophers_stone>,
-    <projecte:item.pe_repair_talisman>
+    <projecte:item.pe_repair_talisman>,
+    <projectex:power_flower>,
+    <projectex:power_flower:1>,
+    <projectex:power_flower:2>,
+    <projectex:power_flower:3>,
+    <projectex:power_flower:4>,
+    <projectex:power_flower:5>,
+    <projectex:power_flower:6>,
+    <projectex:power_flower:7>,
+    <projectex:power_flower:8>,
+    <projectex:power_flower:9>,
+    <projectex:power_flower:10>,
+    <projectex:power_flower:11>,
+    <projectex:power_flower:12>,
+    <projectex:power_flower:13>,
+    <projectex:power_flower:14>,
+    <projectex:power_flower:15>
 ];
 
 function init() {

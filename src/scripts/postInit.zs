@@ -63,6 +63,7 @@ function initIntegration() {
 	scripts.modIntegrations.extendedcrafting.init();
 	scripts.modIntegrations.modularmachinery.druid_circle.init();
     scripts.modIntegrations.modularmachinery.statue_maker.init();
+    scripts.modIntegrations.nuclearcraft.init();
 	scripts.modIntegrations.tinkers.init();
 }
 

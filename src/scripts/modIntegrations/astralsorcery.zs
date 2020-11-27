@@ -8,7 +8,7 @@
 function init() {
     
     /* Pre-End End Rod */
-    astralsorcery.addT1Altar("cacompack:shaped/internal/altar/endrod", <minecraft:end_rod>, 200, 600, [<astralsorcery:blockmarble>, <thebetweenlands:life_crystal>, <astralsorcery:blockmarble>, <astralsorcery:blockmarble>, <bloodmagic:slate:3>, <astralsorcery:blockmarble>, <astralsorcery:blockmarble>, <botania:rune:10>, <astralsorcery:blockmarble>]);
+    astralsorcery.addT1Altar("cacompack:shaped/internal/altar/endrod", <minecraft:end_rod>, 200, 600, [<astralsorcery:blockmarble>, <thebetweenlands:life_crystal>, <astralsorcery:blockmarble>, <astralsorcery:blockmarble>, <bloodmagic:slate:2>, <astralsorcery:blockmarble>, <astralsorcery:blockmarble>, <botania:rune:10>, <astralsorcery:blockmarble>]);
 
     /* Pitstone to Endstone */
     astralsorcery.addStarlightInfusion(<thebetweenlands:pitstone>, <minecraft:end_stone>, false, 0.7, 200);

@@ -15,6 +15,7 @@ global actuallyadditions as scripts._globals.mods.actuallyadditions.ActuallyAddi
 global appliedenergistics as scripts._globals.mods.appliedenergistics.Ae = scripts._globals.mods.appliedenergistics.Ae();
 global astralsorcery as scripts._globals.mods.astralsorcery.AstralSorcery = scripts._globals.mods.astralsorcery.AstralSorcery();
 global botania as scripts._globals.mods.botania.Botania = scripts._globals.mods.botania.Botania();
+global nuclearcraft as scripts._globals.mods.nuclearcraft.Nuclearcraft = scripts._globals.mods.nuclearcraft.Nuclearcraft();
 global tinkers as scripts._globals.mods.tinkers.Tinkers = scripts._globals.mods.tinkers.Tinkers();
 
 //Utils

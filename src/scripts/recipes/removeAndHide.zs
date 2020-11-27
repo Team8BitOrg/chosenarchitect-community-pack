@@ -88,6 +88,23 @@ static ingredientsArray as IIngredient[] = [
     <chickens:colored_egg:1>,
     #### Harvestcraft ####
     <harvestcraft:market>,
+    #### ProjectE ####
+    <projectex:compressed_collector>,
+    <projectex:compressed_collector:1>,
+    <projectex:compressed_collector:2>,
+    <projectex:compressed_collector:3>,
+    <projectex:compressed_collector:4>,
+    <projectex:compressed_collector:5>,
+    <projectex:compressed_collector:6>,
+    <projectex:compressed_collector:7>,
+    <projectex:compressed_collector:8>,
+    <projectex:compressed_collector:9>,
+    <projectex:compressed_collector:10>,
+    <projectex:compressed_collector:11>,
+    <projectex:compressed_collector:12>,
+    <projectex:compressed_collector:13>,
+    <projectex:compressed_collector:14>,
+    <projectex:compressed_collector:15>,
     #### Tinkers' Complement ####
     <tcomplement:alloy_tank>,
     <tcomplement:melter:8>,
