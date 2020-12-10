@@ -18,6 +18,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 			]
 	]*/
+
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

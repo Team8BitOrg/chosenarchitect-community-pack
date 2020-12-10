@@ -33,6 +33,17 @@
 * Twilight Forest (1.12.2-3.11.1020-universal[1] -> 1.12.2-3.11.1021-universal)
 * YUNG's Better Mineshafts (1.12.2-1.3.1 -> 1.12.2-2.1.0)
 
+Mod updates - 10DEC20
+Actually Additions (1.12.2.r151-2 -> 1.12.2.r152)
+Crafttweaker (4.1.20.594 -> 4.1.20.605)
+EnderIO (5.2.61 -> 5.2.66)
+EnderTweaker (1.2.0 -> 1.2.1)
+LLibrary (1.7.19 -> 1.7.20)
+Simple Storage Network (1.7.11 -> 1.8.0)
+Simply Jetpacks 2 (2.2.16.1 -> 2.2.17.0)
+Tombstone (4.0.0 -> 4.0.1)
+
+
 ---
 
 ## Removed Mods

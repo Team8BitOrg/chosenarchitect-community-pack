@@ -11,4 +11,11 @@ function init() {
     //Wheat Seeds
     appliedenergistics.removeGrinder(<minecraft:wheat>);
     appliedenergistics.addGrinder(<minecraft:wheat_seeds> * 2, <minecraft:wheat>, 7);
+
+    ### Inscriber ###
+    // Remove Press copying
+    appliedenergistics.removeInscriber(<appliedenergistics2:material:13>);
+    appliedenergistics.removeInscriber(<appliedenergistics2:material:14>);
+    appliedenergistics.removeInscriber(<appliedenergistics2:material:15>);
+    appliedenergistics.removeInscriber(<appliedenergistics2:material:19>);
 }

@@ -115,6 +115,12 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	],
     <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:statue_maker"}) : [
 			[<minecraft:paper>, <ore:dyeBlue>, <abyssalcraft:shadowgem>]
+	],
+    <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:skystone_melter"}) : [
+			[<minecraft:paper>, <ore:dyeBlue>, <appliedenergistics2:sky_stone_block>]
+	],
+    <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:extreme_pressurizer"}) : [
+			[<minecraft:paper>, <ore:dyeBlue>, <minecraft:piston>]
 	]
 };
 

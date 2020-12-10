@@ -62,6 +62,8 @@ function initIntegration() {
 	scripts.modIntegrations.botania.init();
 	scripts.modIntegrations.extendedcrafting.init();
 	scripts.modIntegrations.modularmachinery.druid_circle.init();
+	scripts.modIntegrations.modularmachinery.extreme_pressurizer.init();
+	scripts.modIntegrations.modularmachinery.skystone_melter.init();
     scripts.modIntegrations.modularmachinery.statue_maker.init();
     scripts.modIntegrations.nuclearcraft.init();
 	scripts.modIntegrations.tinkers.init();

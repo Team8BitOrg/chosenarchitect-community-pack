@@ -44,7 +44,7 @@ function init() {
     //Cyclic Ores
     tinkers.addMelting(<liquid:aluminum> * 144, <cyclicmagic:bauxite_nether_ore>, 100);
     tinkers.addMelting(<liquid:lithium> * 144, <cyclicmagic:lithium_nether_ore>, 600);
-    tinkers.addMelting(<liquid:liquid_titanium> * 144, <cyclicmagic:titanium_nether_ore>, 600);
+    /* tinkers.addMelting(<liquid:liquid_titanium> * 144, <cyclicmagic:titanium_nether_ore>, 600); */
     tinkers.addMelting(<liquid:liquid_mithril> * 144, <cyclicmagic:mithril_nether_ore>, 600);
     tinkers.addMelting(<liquid:liquid_osmium> * 144, <cyclicmagic:osmium_nether_ore>, 600);
 

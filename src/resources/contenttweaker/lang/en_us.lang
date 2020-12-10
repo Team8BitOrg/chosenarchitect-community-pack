@@ -1,8 +1,8 @@
 fluid.molten_sand=Molten Sand
 fluid.liquid_grout=Liquid Grout
-fluid.liquid_titanium=Molten Titanium
 fluid.liquid_mithril=Molten Mana Infused
 fluid.liquid_osmium=Molten Osmium
+fluid.liquid_skystone=Molten Skystone
 
 item.contenttweaker.clay_dust.name=Clay Dust
 

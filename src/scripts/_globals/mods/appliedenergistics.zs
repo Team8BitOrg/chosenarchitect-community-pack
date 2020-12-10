@@ -13,6 +13,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 import mods.appliedenergistics2.Grinder;
+import mods.appliedenergistics2.Inscriber;
 
 zenClass Ae {
     zenConstructor() {
@@ -31,4 +32,20 @@ zenClass Ae {
     function removeGrinder(input as IItemStack) {
         Grinder.removeRecipe(input);
     }
+
+    ###Inscriber###
+    // Remove Recipe
+    function removeInscriber(output as IItemStack){
+        Inscriber.removeRecipe(output);
+    }
+
+    //Add Recipe
+    function addInsriber(output as IItemStack, input as IItemStack, inscribe as bool, topInput as IItemStack, bottomInput as IItemStack){
+        Inscriber.addRecipe(output, input, inscribe, topInput, bottomInput);
+    }
+
+    function addInsriber(output as IItemStack, input as IItemStack, inscribe as bool){
+        Inscriber.addRecipe(output, input, inscribe);
+    }
+
 }
