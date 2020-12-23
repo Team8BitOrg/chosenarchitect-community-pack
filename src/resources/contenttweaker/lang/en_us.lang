@@ -7,3 +7,12 @@ fluid.liquid_skystone=Molten Skystone
 item.contenttweaker.clay_dust.name=Clay Dust
 
 tile.contenttweaker.artificial_bedrock.name=Artificial Bedrock
+
+entity.abyssalnite_chicken.name=Abyssalnite Chicken
+entity.refined_coralium_chicken.name=Refined Coralium Chicken
+entity.dreadium_chicken.name=Dreadium Chicken
+entity.thorium_chicken.name=Thorium Chicken
+entity.boron_chicken.name=Boron Chicken
+entity.lithium_chicken.name=Lithium Chicken
+entity.magnesium_chicken.name=Magnesium Chicken
+entity.mithril_chicken.name=Mithril Chicken

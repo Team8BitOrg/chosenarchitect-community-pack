@@ -32,6 +32,7 @@ function initRecipes() {
 	scripts.recipes.astralSorcery.chickens.init();
 	#### Extended Crafting ####
 	scripts.recipes.extendedCrafting.chickens.init();
+	scripts.recipes.extendedCrafting.creative.init();
 	#### Normal Recipes #####
 	scripts.recipes.mods.abyssalcraft.init();
 	scripts.recipes.mods.actuallyadditions.init();

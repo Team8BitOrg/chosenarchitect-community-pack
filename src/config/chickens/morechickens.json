@@ -168,16 +168,6 @@
     "Parent 1": "",
     "Parent 2": ""
   },
-  "morechickens:sapphirechicken": {
-    "Name": "sapphirechicken",
-    "Is Enabled": true,
-    "Lay Coefficient": 1.0,
-    "Lay Item": "iceandfire:sapphire_gem",
-    "Drop Item": "iceandfire:sapphire_gem",
-    "Spawn Type": "NONE",
-    "Parent 1": "",
-    "Parent 2": ""
-  },
   "morechickens:saltchicken": {
     "Name": "saltchicken",
     "Is Enabled": true,
@@ -684,16 +674,6 @@
     "Lay Coefficient": 1.0,
     "Lay Item": "extrautils2:ingredients:11",
     "Drop Item": "extrautils2:ingredients:11",
-    "Spawn Type": "NONE",
-    "Parent 1": "",
-    "Parent 2": ""
-  },
-  "morechickens:titaniumchicken": {
-    "Name": "titaniumchicken",
-    "Is Enabled": true,
-    "Lay Coefficient": 1.0,
-    "Lay Item": "libvulpes:productingot:7",
-    "Drop Item": "libvulpes:productingot:7",
     "Spawn Type": "NONE",
     "Parent 1": "",
     "Parent 2": ""
