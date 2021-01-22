@@ -1,8 +1,4 @@
-# ChosenArchitect Community Pack Development
-
-This pack is being developed for the community of YouTuber/Streamer - ChosenArchitect.
-https://youtube.com/chosenarchitect/
-https://twitch.tv/chosenarchitect/
+This pack has been finished in loving memory of our dear friend James AKA PixelatedFyre
 
 # Team 8Bit Team
 
