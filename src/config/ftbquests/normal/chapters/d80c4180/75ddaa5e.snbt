@@ -1,0 +1,25 @@
+{
+	title: "You Win!",
+	x: -15.0d,
+	y: -7.5d,
+	shape: "hexagon",
+	dependencies: [
+		"76db1e2a",
+		"aba63b37",
+		"a7eec83d",
+		"2097c5a0",
+		"a11bfc31",
+		"ecba3e91",
+		"20d21a19",
+		"2e4d3840",
+		"7b1f69d0"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "0fca0928",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_creative 1 1"
+		}]
+	}]
+}

@@ -9,9 +9,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-import mods.ItemStages.stageModItems;
-import mods.ItemStages.addItemStage;
-
 //Shaped Recipes
 static shapedRecipes as IIngredient[][][][IItemStack] = {
    <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:coalchicken", Gain: 1, Strength: 1}) : [
@@ -260,78 +257,4 @@ function init() {
 
 	recipeHelper.removeRecipes(removeRecipes);
 
-    stageModItems("skyblock", "chickens");
-    stageModItems("skyblock", "morechickens");
-    stageModItems("skyblock", "roost");
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:aluminumchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:amberchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:arditechicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:basalzrodchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:blackquartzchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:blitzrodchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:blizzrodchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:bloodslime"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:blueslime"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:bronzechicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:cinnabarchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:cobaltchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:conductiveironchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:constantanchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:copperchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:darksteelchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:demonmetalchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:diamantinecrystalchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:draconiumawakenedchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:draconiumchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:electricalsteelchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:electrumchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:elementiumchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:emeradiccrystalchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:enderiumchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:energeticalloychicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:enoricrystalchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:invarchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:iridiumchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:knightslimechicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:leadchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:lumiumchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:lunarreactivedustchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:magicalwoodchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:magmaslime"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:manasteelchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:manyullynchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:mithrilchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:moonstonechicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:nickelchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:osmiumchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:paliscrystalchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:pigironchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:platinumchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:pulsatingironchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:purpleslime"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:redstonealloychicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:redstonecrystalchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:restoniacrystalchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:richslagchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:rubberchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:saltchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:saltpeterchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:sapphirechicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:signalumchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:siliconchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:silverorechicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:slagchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:soulariumchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:steelchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:stoneburntchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:sulfurchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:terrasteelchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:tinchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:titaniumchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:uraniumchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:vibrantalloychicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:voidcrystalchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:xpchicken"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:boopbeepchick"}));
-    addItemStage("skyblock", <roost:chicken>.withTag({Chicken: "morechickens:chickenosto"}));
 }

@@ -1,0 +1,20 @@
+{
+	x: -1.5d,
+	y: 2.0d,
+	dependencies: [
+		"bb97642f"
+	],
+	tasks: [{
+		uid: "fb4c63e5",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:boron_chicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	}]
+}

@@ -24,6 +24,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	   			[null, <randomthings:advancedredstonetorch_on>, null],
 	  			[<thebetweenlands:items_misc:19>, <compactmachines3:psd>, <thebetweenlands:items_misc:19>]
 			]
+	],
+    <compactmachines3:psd> : [
+			[
+	  			[null, <minecraft:glass_pane>, null],
+	   			[<minecraft:ender_pearl>, <minecraft:book>, <minecraft:ender_pearl>],
+	  			[null, <thebetweenlands:octine_ingot>, null]
+			]
 	]
 }; 
 
@@ -81,7 +88,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 //Removals
 static removeRecipes as IItemStack[] = [
     //<modid:itemname:meta>
-    <compactmachines3:fieldprojector>
+    <compactmachines3:fieldprojector>,
+    <compactmachines3:psd>
 ];
 
 function init() {

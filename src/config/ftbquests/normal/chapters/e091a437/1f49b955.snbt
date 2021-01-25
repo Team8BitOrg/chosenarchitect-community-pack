@@ -1,12 +1,13 @@
 {
 	title: "Proper Smeltery",
-	x: -2.5d,
-	y: 0.0d,
+	x: -4.0d,
+	y: 1.5d,
 	text: [
 		"* Now you can finally smelt more than 3 items at the same time"
 	],
 	dependencies: [
-		"6c2dde0b"
+		"be6a16bb",
+		"73c4de75"
 	],
 	hide: true,
 	tasks: [{

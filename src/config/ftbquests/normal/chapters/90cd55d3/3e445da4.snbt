@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: 0.0d,
+	dependencies: [
+		"cafffb69"
+	],
+	tasks: [{
+		uid: "9d3c63fd",
+		type: "item",
+		items: [{
+			item: "botania:elfglass"
+		}]
+	}]
+}

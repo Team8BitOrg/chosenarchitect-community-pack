@@ -9,8 +9,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-import mods.ItemStages.addItemStage;
-
 //Shaped Recipes
 static shapedRecipes as IIngredient[][][][IItemStack] = {
     /*<mod:itemname:meta> : [
@@ -90,5 +88,3 @@ function init() {
 
 	recipeHelper.removeRecipes(removeRecipes);
 }
-
-    addItemStage("overworld", <mekanism:machineblock:4>);

@@ -1,7 +1,7 @@
 {
 	title: "Getting Clay",
 	x: -4.0d,
-	y: -1.5d,
+	y: 0.0d,
 	text: [
 		"* To get clay early on in this pack you will need to sneak and right click sand blocks."
 	],

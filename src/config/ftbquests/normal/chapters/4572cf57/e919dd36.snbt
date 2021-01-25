@@ -9,12 +9,11 @@
 			Strength: 1
 		}
 	},
-	x: -12.5d,
-	y: -7.0d,
+	x: 2.0d,
+	y: 1.0d,
 	can_repeat: true,
 	dependencies: [
-		"bb97642f",
-		"f909d8e7"
+		"bb97642f"
 	],
 	hide: true,
 	tasks: [{

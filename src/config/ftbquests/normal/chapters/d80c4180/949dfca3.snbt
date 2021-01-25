@@ -1,0 +1,23 @@
+{
+	x: -18.0d,
+	y: -4.5d,
+	dependencies: [
+		"772466f1"
+	],
+	tasks: [{
+		uid: "a0f71bca",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalinnovation:drill",
+			tag: {
+				Energy: 600000,
+				Mode: 4
+			},
+			Damage: 32000s
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,14 +1,18 @@
 {
 	title: "Visit the Nether",
-	x: -4.0d,
-	y: 1.5d,
+	x: -3.5d,
+	y: -1.5d,
+	description: "Trust us, it'll work.",
 	text: [
-		"* Early resource gathering is done in the Nether.",
+		"Drop a torch on a plank. It will catch fire eventually.",
+		"Use this method to ignite the portal. It may take a couple tries.",
+		"Early resource gathering is done in the Nether.",
 		"",
-		"* Beware of the mobs."
+		"Watch out for the mobs...it's dangerous in there."
 	],
+	hide_dependency_lines: true,
 	dependencies: [
-		"6c2dde0b"
+		"31ba5174"
 	],
 	hide: true,
 	tasks: [{

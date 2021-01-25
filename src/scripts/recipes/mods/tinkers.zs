@@ -11,25 +11,11 @@ import crafttweaker.item.IIngredient;
 
 //Shaped Recipes
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-    <tcomplement:porcelain_melter> : [
-			[
-	  			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
-	   			[<ceramics:unfired_clay:5>, <ceramics:porcelain_barrel>, <ceramics:unfired_clay:5>],
-	  			[<ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>]
-			]
-	],
-    <tcomplement:porcelain_alloy_tank> : [
-			[
-	  			[null, <ceramics:faucet>, null],
-	   			[<ceramics:porcelain_barrel>, null, <ceramics:porcelain_barrel>],
-	  			[null, <ceramics:faucet>, null]
-			]
-	],
     <tconstruct:smeltery_controller> : [
 			[
 	  			[<minecraft:brick>, <tconstruct:seared>, <minecraft:brick>],
-	   			[<tconstruct:seared>, <tcomplement:porcelain_melter>, <tconstruct:seared>],
-	  			[<minecraft:brick>, <thermalfoundation:material:129>, <minecraft:brick>]
+	   			[<tconstruct:seared>, <thermalfoundation:material:129>, <tconstruct:seared>],
+	  			[<minecraft:brick>, <minecraft:brick>, <minecraft:brick>]
 			]
 	],
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy", Count: 1 as byte, Damage: 0 as short}}) : [
@@ -45,20 +31,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<actuallyadditions:block_crystal_empowered:5>, <conarm:armorstation>, <actuallyadditions:block_crystal_empowered:5>],
 			[<actuallyadditions:block_crystal_empowered:5>, null, <actuallyadditions:block_crystal_empowered:5>]
 		]
-	],
-	<tconstruct:slimesling> : [
-		[
-			[<actuallyadditions:item_crystal:2>, <ore:blockSlimeCongealed>, <actuallyadditions:item_crystal:2>],
-			[<ore:blockSlimeCongealed>, null, <ore:slimeball>],
-			[null, <ore:blockSlimeCongealed>, null]
-		]
-	],
-	<tconstruct:slime_boots> : [
-		[
-			[<industrialforegoing:plastic>, <industrialforegoing:plastic>, <industrialforegoing:plastic>],
-			[<ore:blockSlimeCongealed>, <thebetweenlands:rubber_boots>, <ore:blockSlimeCongealed>]
-		]
-	]	
+	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -80,18 +53,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 
 //Removals
 static removeRecipes as IItemStack[] = [ 
-    <tcomplement:porcelain_melter>,
-    <tcomplement:porcelain_alloy_tank>,
     <tconstruct:smeltery_controller>,
-    <tconstruct:seared_tank>,
-    <tconstruct:faucet>,
-    <tconstruct:casting>,
-    <tconstruct:smeltery_io>,
-    <tconstruct:casting:1>,
 	<tconstruct:toolforge>,
 	<conarm:armorforge>,
-	<tconstruct:slimesling>,
-	<tconstruct:slime_boots>,
 ];
 
 function init() {

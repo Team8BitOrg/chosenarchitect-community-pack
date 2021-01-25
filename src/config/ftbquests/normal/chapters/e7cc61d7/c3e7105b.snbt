@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	dependencies: [
+		"61dcc405"
+	],
+	tasks: [{
+		uid: "7b0c1575",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:shoggothbiomass"
+		}]
+	}]
+}

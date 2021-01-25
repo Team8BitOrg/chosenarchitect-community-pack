@@ -1,0 +1,15 @@
+{
+	x: 2.5d,
+	y: -1.0d,
+	dependencies: [
+		"4d4ef741"
+	],
+	tasks: [{
+		uid: "ea09a92c",
+		type: "item",
+		items: [{
+			item: "minecraft:end_stone"
+		}],
+		count: 10L
+	}]
+}

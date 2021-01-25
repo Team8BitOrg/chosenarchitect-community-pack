@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: -1.5d,
+	dependencies: [
+		"cffb6eda"
+	],
+	tasks: [{
+		uid: "213da225",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:abyingot"
+		}]
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "Crystals",
+	x: 1.5d,
+	y: -2.0d,
+	dependencies: [
+		"8aa10f35"
+	],
+	tasks: [{
+		uid: "b7d826ff",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal 1 5"
+		}]
+	},
+	{
+		uid: "5dffa405",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal"
+		}]
+	},
+	{
+		uid: "7aadf865",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal 1 1"
+		}]
+	},
+	{
+		uid: "23a3b7b2",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal 1 2"
+		}]
+	},
+	{
+		uid: "1b1b7e99",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal 1 4"
+		}]
+	}]
+}

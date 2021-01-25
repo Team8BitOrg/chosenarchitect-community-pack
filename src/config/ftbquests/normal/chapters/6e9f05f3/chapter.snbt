@@ -1,7 +1,0 @@
-{
-	title: "Beating Starvation",
-	icon: "harvestcraft:pbandjitem",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

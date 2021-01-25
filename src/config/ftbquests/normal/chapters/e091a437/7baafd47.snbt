@@ -5,14 +5,21 @@
 		},
 		id: "minecraft:writable_book"
 	},
-	x: -8.5d,
-	y: -4.0d,
+	x: -5.5d,
+	y: -4.5d,
 	text: [
-		"* Quests that are marked with a book and quill are informational quests."
+		"Quests are not all-inclusive of what this pack can offer.",
+		"They only serve as a guide for progression."
 	],
 	tasks: [{
 		uid: "602aeaca",
 		type: "checkmark",
-		title: "Welcome to [Name]"
+		title: "Welcome to Legacy of Fyre"
+	}],
+	rewards: [{
+		uid: "a50f8cfe",
+		type: "item",
+		item: "minecraft:torch",
+		count: 4
 	}]
 }

@@ -1,0 +1,18 @@
+{
+	title: "Elder Effigy Transmorgifier",
+	x: -1.5d,
+	y: -2.0d,
+	dependencies: [
+		"5d25c92b"
+	],
+	tasks: [{
+		uid: "17b00444",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:statue_maker"
+			}
+		}]
+	}]
+}

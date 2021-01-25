@@ -1,7 +1,0 @@
-{
-	title: "Actually Additions",
-	icon: "actuallyadditions:block_empowerer",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

@@ -19,6 +19,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			]
 	]*/
 
+    <appliedenergistics2:inscriber> : [
+			[
+	  			[<appliedenergistics2:sky_stone_block>, <minecraft:sticky_piston>, <ore:ingotIron>],
+	   			[<ore:crystalFluix>, null, <ore:ingotIron>],
+	  			[<appliedenergistics2:sky_stone_block>, <minecraft:sticky_piston>, <ore:ingotIron>]
+			]
+	]
+
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

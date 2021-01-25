@@ -1,8 +1,9 @@
 {
-	x: -5.5d,
-	y: 2.5d,
+	title: "Helpful Tool: Squeezer",
+	x: -2.0d,
+	y: 0.0d,
 	text: [
-		"* Use this to make water"
+		"* Use this to make water and gravel"
 	],
 	dependencies: [
 		"5d25c92b"

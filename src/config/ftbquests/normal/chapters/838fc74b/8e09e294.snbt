@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: -4.0d,
+	dependencies: [
+		"97814f37"
+	],
+	tasks: [{
+		uid: "80b80692",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:swamp_talisman",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}]
+}

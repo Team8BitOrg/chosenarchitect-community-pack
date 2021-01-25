@@ -12,8 +12,8 @@
     "Name": "xpChicken",
     "Is Enabled": true,
     "Lay Coefficient": 1.0,
-    "Lay Item": "morechickens:solidxp",
-    "Drop Item": "morechickens:solidxp",
+    "Lay Item": "actuallyadditions:item_solidified_experience",
+    "Drop Item": "actuallyadditions:item_solidified_experience",
     "Spawn Type": "NONE",
     "Parent 1": "",
     "Parent 2": ""

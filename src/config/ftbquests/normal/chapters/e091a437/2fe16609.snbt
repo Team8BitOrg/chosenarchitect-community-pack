@@ -1,0 +1,19 @@
+{
+	x: -7.0d,
+	y: -1.5d,
+	description: "Crop Sticks are required for all plants",
+	text: [
+		"Crop breeding will be necessary for many aspects.",
+		""
+	],
+	dependencies: [
+		"341fd940"
+	],
+	tasks: [{
+		uid: "10e816dc",
+		type: "item",
+		items: [{
+			item: "agricraft:crop_sticks"
+		}]
+	}]
+}

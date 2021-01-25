@@ -1,0 +1,19 @@
+{
+	x: -17.5d,
+	y: -8.0d,
+	dependencies: [
+		"772466f1"
+	],
+	tasks: [{
+		uid: "b15e8d26",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "deepmoblearning:creative_model_learner"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

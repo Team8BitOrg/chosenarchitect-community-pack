@@ -1,0 +1,18 @@
+{
+	title: "Central Druid Processing Unit - Zion",
+	x: -2.5d,
+	y: -1.0d,
+	dependencies: [
+		"5d25c92b"
+	],
+	tasks: [{
+		uid: "a1abe31c",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:druid_circle"
+			}
+		}]
+	}]
+}

@@ -1,7 +1,7 @@
 {
 	title: "Tinkering About",
 	x: -5.5d,
-	y: -3.0d,
+	y: -1.5d,
 	text: [
 		"* Vanilla Tools DO NOT work in this pack."
 	],

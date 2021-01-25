@@ -10,7 +10,6 @@ import crafttweaker.item.IItemStack;
 
 static itemRenameArray as string[IItemStack] = {
     #<modname:itemid:meta>: "New Name"
-    <ceramics:porcelain_barrel> : "Porcelain Barrel"
 };
 
 function init() {

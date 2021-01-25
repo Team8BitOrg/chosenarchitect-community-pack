@@ -1,0 +1,18 @@
+{
+	title: "Botanic Beginnings",
+	x: 0.0d,
+	y: -3.0d,
+	text: [
+		"Botania flowers are aquired through Agricraft breeding"
+	],
+	dependencies: [
+		"2fe16609"
+	],
+	tasks: [{
+		uid: "86356a7d",
+		type: "item",
+		items: [{
+			item: "botania:petal"
+		}]
+	}]
+}

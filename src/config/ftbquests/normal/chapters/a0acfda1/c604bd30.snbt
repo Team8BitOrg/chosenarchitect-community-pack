@@ -1,0 +1,18 @@
+{
+	title: "Extreme Pressurizer",
+	x: -1.5d,
+	y: 0.0d,
+	dependencies: [
+		"5d25c92b"
+	],
+	tasks: [{
+		uid: "b5236d57",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:extreme_pressurizer"
+			}
+		}]
+	}]
+}

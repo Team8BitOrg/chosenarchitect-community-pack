@@ -1,7 +1,0 @@
-{
-	title: "Starting Out",
-	icon: "minecraft:grass",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

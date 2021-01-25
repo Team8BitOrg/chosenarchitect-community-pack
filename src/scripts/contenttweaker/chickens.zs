@@ -46,8 +46,3 @@ lithiumChicken.register();
 val magnesiumChicken = ChickenFactory.createChicken("magnesium_chicken", Color.fromInt(0xD5B0D1), <item:nuclearcraft:ingot:7>);
 magnesiumChicken.setSpawnType("NONE");
 magnesiumChicken.register();
-
-/* Mithril */
-val mithrilChicken = ChickenFactory.createChicken("mithril_chicken", Color.fromInt(0x7CC9F7), <item:thermalfoundation:material:136>);
-mithrilChicken.setSpawnType("NONE");
-mithrilChicken.register();

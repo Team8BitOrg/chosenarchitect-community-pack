@@ -6,12 +6,11 @@
 			Chicken: "minecraft:chicken"
 		}
 	},
-	x: -16.5d,
-	y: -9.0d,
+	x: -2.0d,
+	y: -1.0d,
 	can_repeat: true,
 	dependencies: [
-		"bb97642f",
-		"b9526054"
+		"bb97642f"
 	],
 	hide: true,
 	tasks: [{

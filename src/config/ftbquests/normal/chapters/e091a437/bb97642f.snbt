@@ -1,7 +1,7 @@
 {
 	title: "Can I Buy Items With EMC?",
 	x: -7.0d,
-	y: -1.5d,
+	y: 0.0d,
 	text: [
 		"* You can buy items from the EMC Store as long as you have the amount of EMC to cover it."
 	],

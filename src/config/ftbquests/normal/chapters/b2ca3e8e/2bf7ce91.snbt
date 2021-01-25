@@ -1,0 +1,14 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	dependencies: [
+		"9e73ab0c"
+	],
+	tasks: [{
+		uid: "4baf417e",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:machine_casing"
+		}]
+	}]
+}

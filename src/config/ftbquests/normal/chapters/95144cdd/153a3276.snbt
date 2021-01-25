@@ -1,0 +1,15 @@
+{
+	x: -0.5d,
+	y: -0.5d,
+	description: "Made via Miniaturization Field",
+	dependencies: [
+		"2afe20f4"
+	],
+	tasks: [{
+		uid: "e0f34058",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}]
+}

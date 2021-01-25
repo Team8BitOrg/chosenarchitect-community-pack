@@ -37,7 +37,6 @@ function initRecipes() {
 	scripts.recipes.mods.abyssalcraft.init();
 	scripts.recipes.mods.actuallyadditions.init();
 	scripts.recipes.mods.appliedenergistics.init();
-	scripts.recipes.mods.ceramics.init();
 	scripts.recipes.mods.chickens.init();
 	scripts.recipes.mods.compactmachines.init();
 	scripts.recipes.mods.contenttweaker.init();

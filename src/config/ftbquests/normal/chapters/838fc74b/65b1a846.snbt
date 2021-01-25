@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: -0.5d,
+	dependencies: [
+		"a503a59b"
+	],
+	tasks: [{
+		uid: "4834769c",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:pitstone"
+		}]
+	}]
+}

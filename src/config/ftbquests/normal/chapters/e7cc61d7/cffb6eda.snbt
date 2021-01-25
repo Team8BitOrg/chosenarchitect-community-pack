@@ -1,0 +1,38 @@
+{
+	title: "Hunting Dimension",
+	x: 3.0d,
+	y: -1.5d,
+	text: [
+		"You need at least 10 blocks to create the portal frame.",
+		"Ignite the Hunting Dimension portal by right-clicking with a sword.",
+		"Certain ores, mobs, and structures can only be found in the Hunting Dimension."
+	],
+	dependencies: [
+		"b67911f6"
+	],
+	tasks: [{
+		uid: "384ea8eb",
+		type: "item",
+		items: [{
+			id: "huntingdim:frame",
+			tag: {
+				BaseBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "49c3ff00",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:iron_sword"
+		}
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -8.5d,
+	y: -1.5d,
+	text: [
+		"Some crops can only grow in certain seasons. Greenhouse glass above the crop will let it grow all year."
+	],
+	dependencies: [
+		"2fe16609"
+	],
+	tasks: [{
+		uid: "7f8d2692",
+		type: "item",
+		items: [{
+			item: "sereneseasons:greenhouse_glass"
+		}]
+	}]
+}

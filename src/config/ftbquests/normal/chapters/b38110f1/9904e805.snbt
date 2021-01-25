@@ -1,0 +1,14 @@
+{
+	x: -0.5d,
+	y: 0.5d,
+	dependencies: [
+		"e65864a3"
+	],
+	tasks: [{
+		uid: "8d607c8a",
+		type: "item",
+		items: [{
+			item: "minecraft:end_rod"
+		}]
+	}]
+}

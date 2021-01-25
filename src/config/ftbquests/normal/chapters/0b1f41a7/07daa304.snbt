@@ -1,0 +1,21 @@
+{
+	x: -0.5d,
+	y: -2.0d,
+	description: "Click to see directions for End Portal",
+	text: [
+		"Create an artificial End Portal to travel to The End",
+		"",
+		"* Place a 3x3 square of End Stone",
+		"* Use 16 Obsidian to surround the 3x3 one block above it.",
+		"* Place a piece of End Stone 5 blocks above the center of the 3x3",
+		"* Place an End Rod under that block, and right-click it with an Evil Tear."
+	],
+	dependencies: [
+		"e65864a3"
+	],
+	tasks: [{
+		uid: "1f73d53d",
+		type: "dimension",
+		dim: 1
+	}]
+}
