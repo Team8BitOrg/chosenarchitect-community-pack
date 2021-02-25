@@ -66,8 +66,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
             [<modularmachinery:itemmodularium>, <modularmachinery:blockfluidinputhatch:1>, <modularmachinery:itemmodularium>],
             [<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>]
 		]
+    ],
+	<modularmachinery:blockfluidoutputhatch:2> : [
+		[
+  			[<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>],
+            [<modularmachinery:itemmodularium>, <modularmachinery:blockfluidoutputhatch:1>, <modularmachinery:itemmodularium>],
+            [null, <minecraft:hopper>, null]
+		]
     ]
-
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

@@ -5,6 +5,7 @@
 		"e20ba8ed",
 		"58333c9d"
 	],
+	hide: true,
 	tasks: [{
 		uid: "90f37081",
 		type: "item",

@@ -8,7 +8,8 @@
 		"Use this method to ignite the portal. It may take a couple tries.",
 		"Early resource gathering is done in the Nether.",
 		"",
-		"Watch out for the mobs...it's dangerous in there."
+		"Watch out for the mobs...it's dangerous in there.",
+		"You'll want ranged weapons to deal with Blazes."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

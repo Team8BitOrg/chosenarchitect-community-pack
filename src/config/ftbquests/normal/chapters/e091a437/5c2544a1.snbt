@@ -1,0 +1,48 @@
+{
+	title: "Dealing With Mobs",
+	icon: "minecraft:ender_eye",
+	x: -5.5d,
+	y: 1.5d,
+	description: "Mobs in this pack are particularly rough.",
+	text: [
+		"There are a number of items that will help you deal with mobs better.",
+		"Having an Eye of Ender in your inventory will prevent Endermen from teleporting you",
+		"Charms from Cyclic can help prevent things like fire, wither, and poison damage."
+	],
+	dependencies: [
+		"71f79df7"
+	],
+	tasks: [{
+		uid: "b44bb83e",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_eye"
+		}]
+	},
+	{
+		uid: "73ad9ef7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:charm_fire",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "97116526",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:charm_antidote",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

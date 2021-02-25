@@ -122,8 +122,8 @@
     "Name": "siliconchicken",
     "Is Enabled": true,
     "Lay Coefficient": 1.0,
-    "Lay Item": "enderio:item_material:5",
-    "Drop Item": "enderio:item_material:5",
+    "Lay Item": "appliedenergistics2:material:5",
+    "Drop Item": "appliedenergistics2:material:5",
     "Spawn Type": "NONE",
     "Parent 1": "",
     "Parent 2": ""

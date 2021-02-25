@@ -2,9 +2,6 @@
 	title: "Tinkering About",
 	x: -5.5d,
 	y: -1.5d,
-	text: [
-		"* Vanilla Tools DO NOT work in this pack."
-	],
 	dependencies: [
 		"341fd940"
 	],

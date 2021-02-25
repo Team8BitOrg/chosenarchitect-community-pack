@@ -43,6 +43,7 @@ function initRecipes() {
 	scripts.recipes.mods.cyclic.init();
 	scripts.recipes.mods.deepmoblearning.init();
 	scripts.recipes.mods.extrautilities.init();
+	scripts.recipes.mods.extendedcrafting.init();
 	scripts.recipes.mods.huntingdim.init();
 	scripts.recipes.mods.industrialforegoing.init();
 	scripts.recipes.mods.minecraft.init();

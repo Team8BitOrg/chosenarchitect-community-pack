@@ -1,6 +1,5 @@
 CAComPack = registerPreset("Legacy of Fyre", "images/world", "#lovelikejames")
-CAComPack.registerDimension(0, "CACom/island")
-CAComPack.addInitialPlayerFunction("triumph:sky_start")
+CAComPack.registerDimension(0, "lof/island")
 
 setAsDefaultWorldType()
 printDocumentation(false)

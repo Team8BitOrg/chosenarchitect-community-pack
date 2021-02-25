@@ -13,6 +13,7 @@
 	dependencies: [
 		"e65864a3"
 	],
+	hide: true,
 	tasks: [{
 		uid: "1f73d53d",
 		type: "dimension",

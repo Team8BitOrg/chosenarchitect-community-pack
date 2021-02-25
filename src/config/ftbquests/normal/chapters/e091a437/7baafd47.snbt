@@ -9,7 +9,9 @@
 	y: -4.5d,
 	text: [
 		"Quests are not all-inclusive of what this pack can offer.",
-		"They only serve as a guide for progression."
+		"They only serve as a guide for progression.",
+		"JEI can help provide information as well.",
+		"Sometimes you need to look through the tabs."
 	],
 	tasks: [{
 		uid: "602aeaca",
@@ -20,6 +22,11 @@
 		uid: "a50f8cfe",
 		type: "item",
 		item: "minecraft:torch",
-		count: 4
+		count: 5
+	},
+	{
+		uid: "77144732",
+		type: "item",
+		item: "projectex:stone_table"
 	}]
 }

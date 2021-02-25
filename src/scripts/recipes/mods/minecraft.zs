@@ -46,6 +46,9 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 
 //Shapeless Recipes
 static shapelessRecipes as IIngredient[][][IItemStack] = {
+    <minecraft:wheat> * 4 : [
+        [<minecraft:hay_block>]
+    ]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
@@ -54,7 +57,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 //Removals
 static removeRecipes as IItemStack[] = [
     <minecraft:hay_block>,
-    <minecraft:end_rod>
+    <minecraft:end_rod>,
+    <minecraft:wheat>
 ];
 
 function init() {

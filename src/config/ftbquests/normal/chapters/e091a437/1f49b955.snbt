@@ -3,7 +3,7 @@
 	x: -4.0d,
 	y: 1.5d,
 	text: [
-		"* Now you can finally smelt more than 3 items at the same time"
+		"Ore doubling is DISABLED in the smeltery."
 	],
 	dependencies: [
 		"be6a16bb",

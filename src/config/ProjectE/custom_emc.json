@@ -1411,6 +1411,14 @@
     {
       "item": "quark:reed_block_wall|0",
       "emc": 0
+    },
+    {
+      "item": "forge:bucketfilled|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sapling|0",
+      "emc": 0
     }
   ]
 }
